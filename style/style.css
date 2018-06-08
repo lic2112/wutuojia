@@ -19,7 +19,7 @@ a { color:#333; text-decoration:none; }
 .header_l ul li a {font-size: 16px}
 .header_l ul li a:hover {color: #666;}
 .header_l ul li i {background: #111;font-style: normal;color: #fff;border-radius: 2px;}
-.header_l .search {float: left; width: 22px;height: 22px;background: url(../img/wtjicon.png) no-repeat 0 0 ;margin-top: 9px;}
+.header_l .search {float: left; width: 22px;height: 22px;background: url(../img/wtjicon.png) no-repeat 0 0 ;margin-top: 9px;cursor: pointer;}
 .header_l .search:hover {background: url(../img/wtjicon.png) no-repeat -25px 0}
 
 .header_r {float: right;margin-right: 20px;display: flex;align-items: center}
@@ -38,6 +38,16 @@ a { color:#333; text-decoration:none; }
 .next {position: absolute;width: 42px;height: 78px;background: url(../img/wtjicon.png) no-repeat -168px -30px;right: 10px;top: 50%;z-index: 9;}
 .next:hover{background-position: -265px -30px;}
 
-.imgbox a {position: absolute;}
+.imgbox a {position: absolute;width: 1349px;height: 548px;left: 1349px;}
+.imgbox a img {width: 1349px;height: 548px;}
+.imgbox a:nth-child(1) {left: 0}
 
 .banner-list {position: absolute;z-index: 3;background: #fff;top: 30px;left: 40px;width: 90px;}
+.banner-list>li{line-height: 45px;text-align: center;border-bottom: 1px solid #f0f0f0;cursor: pointer;}
+.banner-list>li:last-child {border-bottom: none;}
+.banner-list>li:hover{background: #111;color: #fff}
+.banner-list>li i {font-style: normal}
+
+.banner-list-box {width: 0px;height: 183px;background: #111;position: absolute;left: 90px;top: 0;overflow: hidden;}
+.banner-list-box ul{float: left; margin: 30px 0 30px 50px }
+.banner-list-box a {color: #fff;font-size: 12px;display: block;height: 26px;line-height: 26px;text-align: left;}
