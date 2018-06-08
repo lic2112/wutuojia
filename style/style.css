@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img { border:none; }
+img{display: block;}
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol { list-style:none; } 
+body { color:#333; padding:5px 0; font:14px/20px "微软雅黑"; background:#fff;overflow-y:scroll; overflow-x:hidden;}
+a { color:#333; text-decoration:none; }
+/* a:visited { color:#666; } */
+/* a:hover, a:active, a:focus { color:#ff8400; text-decoration:underline; } */
+
+/* header */
+.header{height: 81px;}
+.header_l {margin-top: 20px;float: left;overflow: hidden;}
+.header_l .menu {float: left; width: 88px;height: 40px;background: url(../img/logo.png) no-repeat;margin: 0 73px 0 36px}
+.header_l ul {float: left;}
+.header_l ul li {float: left; margin-right: 60px;line-height: 40px;}
+.header_l ul li a {font-size: 16px}
+.header_l ul li a:hover {color: #666;}
+.header_l ul li i {background: #111;font-style: normal;color: #fff;border-radius: 2px;}
+.header_l .search {float: left; width: 22px;height: 22px;background: url(../img/wtjicon.png) no-repeat 0 0 ;margin-top: 9px;}
+.header_l .search:hover {background: url(../img/wtjicon.png) no-repeat -25px 0}
+
+.header_r {float: right;margin-right: 20px;display: flex;align-items: center}
+.header_r a.create {display: flex; width: 100px;height: 30px;background: #111;border-radius: 15px;align-items: center;line-height: 81px;}
+.header_r a.create i {width: 32px;height: 22px; background: url(../img/mybuild_btn.png) no-repeat;margin-left: 12px;}
+.header_r a.create h2 {font-size: 12px;font-weight: normal;color: #fff;}
+.header_r span {display: flex;align-items: center;width: 94px;height: 80px;padding-left: 40px;}
+.header_r span a{float: left;}
+.header_r span a i {display: block; width: 25px;height: 25px; background:url(../img/wtjicon.png) no-repeat -52px 0}
+.header_r span a b {display: block; width: 14px;height: 14px;background:url(../img/wtjicon.png) no-repeat -52px -25px;margin-left: 20px}
+
+/* banner */
+.banner {width: 1349px;height: 548px;position: relative;}
+.prev {position: absolute;width: 42px;height: 78px;background: url(../img/wtjicon.png) no-repeat -125px -30px;left: 10px;top: 50%;z-index: 9}
+.prev:hover{background-position: -220px -30px;}
+.next {position: absolute;width: 42px;height: 78px;background: url(../img/wtjicon.png) no-repeat -168px -30px;right: 10px;top: 50%;z-index: 9;}
+.next:hover{background-position: -265px -30px;}
+
+.imgbox a {position: absolute;}
+
+.banner-list {position: absolute;z-index: 3;background: #fff;top: 30px;left: 40px;width: 90px;}
