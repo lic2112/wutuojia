@@ -111,18 +111,10 @@ a { color:#333; text-decoration:none; }
 .recommd-body {width: 300px;padding: 12px;overflow: hidden;box-sizing: border-box}
 .recommd-body dl {width: 276px;height: 405px;float:left;margin-top: 10px;position: relative;}
 .recommd-body dl dt a{display: block; height: 276px;width: 276px;text-align: center;line-height: 276px;}
-.recommd-body dl dt a img{display: inline-block;vertical-align: middle;}
+.recommd-body dl dt a img{display: inline-block;vertical-align: middle;max-width: 100%;max-height: 100%;}
 .recommd-body dl dd a {display: block;margin-top: 15px;font-size: 12px;}
 .recommd-body dl dd p {height: 35px;line-height: 35px; font-size:14px;overflow: hidden;}
 .recommd-body dl dd span {display: block;margin-bottom: 15px;color: #999;}
-.recommd-body:nth-child(1) dl dt img {width: 276px;height: 260px;}
-.recommd-body:nth-child(2) dl dt img {width: 264px;height: 276px;}
-.recommd-body:nth-child(3) dl dt img {width: 276px;height: 271px;}
-.recommd-body:nth-child(4) dl dt img {width: 276px;height: 146px;}
-.recommd-body:nth-child(5) dl dt img {width: 276px;height: 131px;}
-.recommd-body:nth-child(6) dl dt img {width: 153px;height: 276px;}
-.recommd-body:nth-child(7) dl dt img {width: 276px;height: 276px;}
-.recommd-body:nth-child(8) dl dt img {width: 276px;height: 183px;}
 
 .recomd-b {margin-bottom: 80px;}
 .wtj-link {height: 80px;line-height: 80px;border-bottom: 1px solid #000;width: 80px;margin: 0 auto;}
@@ -136,10 +128,18 @@ a { color:#333; text-decoration:none; }
 .mytake-arrow {width: 280px;text-align: center;position: absolute;}
 .mytake-arrow img {display: inline-block;}
 
-.works {margin-top: 30px;}
+.works {margin-top: 30px;overflow: hidden;display: none;}
+.works:nth-child(1) {display: block;}
 .author-info {widows: 460px;float: left;}
-.author-info img {display: inline-block; margin-left: 17px;width: 64px;height: 64px;border-radius: 50%}
-.author {width: 360px;display: inline-block;margin-left: 100px;}
+.author-info img {float: left; margin-left: 17px;width: 64px;height: 64px;border-radius: 50%;}
+.author {width: 360px;float: left;;margin-left: 20px;}
 .author h3 {font-weight: normal;}
 .tlt-author {font-size: 12px;cursor: pointer;}
 .author p {margin-top: 15px;line-height: 22px;font-size: 14px;}
+
+.work-div {float: right;}
+.work-ul {overflow: hidden;}
+.work-ul li {float: left;margin-left: 57px;width: 110px;}
+.work-ul li a {display: block;width: 110px;height: 110px;line-height: 110px;text-align: center; margin: 0 auto 16px;}
+.work-ul li h3 {font-size: 12px;font-weight: normal;height: 36px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.work-ul li a img {display: inline-block; vertical-align: middle;max-height: 110px;max-width: 110px;} 

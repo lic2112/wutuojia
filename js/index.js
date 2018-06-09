@@ -63,15 +63,11 @@ new Banner()
 
 //懒加载
 $('.lazyload').lazyload()
-// console.log($('.lazyload').offset().top);
-// class Lazy {
-//     constructor() {
-//         this.clientH = document.documentElement.clientHeight
-//         this.scrollT = document.documentElement.scrollTop
-//         this.ImgTop = $('.lazyload').offsetTop
-//     }
-//     if(this.ImgTop> this.clientHeight + this.scrollTop) {
 
-// }
-// }
-// new Lazy()
+//mytake hover效果
+$('.mytake-ul li').on('mouseenter', function () {
+    $('.works').stop().hide().eq($(this).index()).stop().show()
+    $('.mytake-arrow').stop().animate({
+        left: $(this).index() * $('.mytake-arrow').width()
+    })
+})
