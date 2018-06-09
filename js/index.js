@@ -6,7 +6,7 @@ $('.banner-list>li').hover(function () {
     $(this).children('.banner-list-box').css({ display: 'none' }).stop().animate({ width: 0 })
 })
 
-// 轮播
+// banner轮播
 class Banner {
     constructor() {
         this.next = $('.next');
@@ -46,11 +46,32 @@ class Banner {
             .end().eq(this.iNow).css({ left: this.aImg.eq(0).width() * num }).stop().animate({ left: 0 }, 500);
     }
     auto() {
-        setInterval(() => {
+        this.timer = setInterval(() => {
             this.next.triggerHandler('click')
         }, 5000);
+        let that = this;
+        this.aImg.hover(function () {
+            clearInterval(that.timer);
+        }, function () {
+            that.timer = setInterval(() => {
+                that.next.triggerHandler('click')
+            }, 5000);
+        })
     }
 }
 new Banner()
 
+//懒加载
+$('.lazyload').lazyload()
+// console.log($('.lazyload').offset().top);
+// class Lazy {
+//     constructor() {
+//         this.clientH = document.documentElement.clientHeight
+//         this.scrollT = document.documentElement.scrollTop
+//         this.ImgTop = $('.lazyload').offsetTop
+//     }
+//     if(this.ImgTop> this.clientHeight + this.scrollTop) {
 
+// }
+// }
+// new Lazy()
