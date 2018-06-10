@@ -71,3 +71,12 @@ $('.mytake-ul li').on('mouseenter', function () {
         left: $(this).index() * $('.mytake-arrow').width()
     })
 })
+
+// footer link more
+$('.links_moreIcon').on('click', function () {
+    $('.links_m').toggle()
+})
+
+// ingmenu
+
+

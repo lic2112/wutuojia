@@ -189,3 +189,69 @@ a { color:#333; text-decoration:none; }
 
 /* top-brands */
 .brands-t h2 {background-position: 0 -450px;}
+
+.brands-main {position: relative;height: 618px;background: url(../img/brands/topbrand1.jpg) no-repeat 50% 50%}
+.tv-slideBox a {position: absolute;display: block; height: 20px;width: 13px;margin-top: -10px;top: 50%;}
+.brands-main .prev_b {left:90px;background-position: -189px -463px;}
+.brands-main .prev_b:hover {left:90px;background-position: -219px -463px;}
+.brands-main .next_b {right: 25px;background-position:-203px -463px}
+.brands-main .next_b:hover {right: 25px;background-position:-233px -463px;}
+
+.tempWrap {position: absolute;left: 0;top: 0;right: 0;bottom: 0;margin: auto;width: 1075px;height: 515px;}
+.tempWrap ul {overflow: hidden;}
+.clone {float: left;overflow: hidden;}
+.clone_l {float: left;}
+.clone_l i {width: 80px;height: 114px;display: block;background: url(../img/wtjicon.png) no-repeat -189px -345px;}
+.clone_c {float: left;height: 515px;width: 300px;position: relative;z-index: 1}
+.clone_c a {display: flex; height: 330px;text-align: center;flex-direction: column;align-items: center;justify-content: center;}
+.clone_c a img {width: 100px;display: inline-block}
+.clone_c a p {line-height: 22px;text-align: center;}
+.clone_c_b h2 {font-size: 20px;margin-bottom: 16px;text-align: center;}
+.clone_c_b p {text-align: center;font-size: 16px;line-height: 30px;}
+.clone_c_bg {width: 300px;height: 515px;background: #fff;opacity: .6;position: absolute;left: 0;top: 0;z-index: -1;}
+.clone_r {float: left; width: 695px;height: 470px;background: #fff;padding-top: 45px;}
+.clone_r a {display: block; width: 160px;float: left;margin-left: 55px;margin-bottom: 15px;}
+.clone_r_div {width: 160px;height: 160px;line-height: 160px;border:1px solid #f0f0f0}
+.clone_r_div img {max-width: 160px;display: inline-block;vertical-align: middle}
+.clone_r a p {font-size: 12px;color: #666;line-height: 20px;white-space:nowrap;overflow: hidden;}
+.clone_r a small {color: #999;}
+
+/* footer */
+.footer {background: #f0f0f0;color: #999;margin-top: 80px;}
+.footer_t {display: flex;justify-content: space-around;padding: 40px 0;border-bottom: 1px solid #ddd;}
+.footer_t a {overflow: hidden;}
+.footer_t a i {float: left;background: url(../img/b_ic.png) no-repeat;}
+.footer_t a .footer_t_aright{float: left;margin-left: 44px;}
+.footer_t a span {color: #333;font-size: 24px;line-height: 24px;}
+.footer_t a p {color: #999;font-size: 16px ;margin-top: 6px;}
+.footer_t a:nth-child(1) i{width: 58px; height: 36px;margin-top: 10px;}
+.footer_t a:nth-child(2) i{width: 49px; height: 49px;background-position: -66px 0;}
+.footer_t a:nth-child(3) i{width: 47px; height: 47px;background-position: -123px 0;}
+
+.footer_c {padding: 30px 0;border-bottom: 1px solid #ddd;overflow: hidden;}
+.footer_c_l  {float: left;}
+.footer_c_l img {width: 114px;}
+.footer_c_l p {margin-top: 65px;font-size: 12px;}
+.footer_c_l span {font-size: 12px;}
+.footer_c_c {float: left;overflow: hidden;margin-left: 100px;}
+.footer_c_c ul {float: left;overflow: hidden;margin-right: 100px;}
+.footer_c_c ul span {display: block; font-size: 18px;color: #333;margin-bottom: 20px;}
+.footer_c_c ul li {height: 24px;line-height: 24px;}
+.footer_c_c ul li a {color: #999;font-size: 12px;}
+.footer_c_c ul li a:hover {color: #333}
+.footer_c_r {float: right;}
+.footer_c_r p {font-size: 12px;color: #999;margin-top: 10px;text-align: center;}
+
+.links {padding: 10px 0;overflow: hidden;}
+.links_l {float: left;width: 1150px;}
+.links_l a {display: inline-block;color: #999;margin-right: 13px;font-size: 12px;}
+.links_l .links_m {display: none;}
+.links_moreIcon {background: url(../img/commodityicon.png) no-repeat -45px 0;width: 17px;height: 17px;float: right;margin-right: 30px;cursor: pointer;}
+
+/* ingmenu */
+.ingmenu {position: fixed;right: 30px;bottom: 100px;width: 24px;z-index: 999;display: none;}
+.ingmenu li {position: relative;margin-bottom: 30px;}
+.ingmenu li a {display: block;background-image: url(../img/wtjicon.png);}
+.imgmenu_ico1 { background-position: -280px -345px;height: 34px;width: 27px;}
+.imgmenu_ico2 { background-position: -65px -360px;height: 24px;width: 22px;}
+.imgmenu_ico3 { background-position: -280px -413px;height: 26px;width: 28px;}
