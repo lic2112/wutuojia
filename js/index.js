@@ -72,9 +72,6 @@ new Banner({
     aImg: $('.tempWrap ul').children('li')
 })
 
-//懒加载
-$('.lazyload').lazyload()
-
 //mytake hover效果
 $('.mytake-ul li').on('mouseenter', function () {
     $('.works').stop().hide().eq($(this).index()).stop().show()
@@ -83,38 +80,11 @@ $('.mytake-ul li').on('mouseenter', function () {
     })
 })
 
-// footer link more
-$('.links_moreIcon').on('click', function () {
-    $('.links_m').toggle()
-})
-
-// ingmenu
-onscroll = function () {
-    if ($(document).scrollTop() > 400) {
-        $('.ingmenu').stop().show(200)
-    } else {
-        $('.ingmenu').stop().hide(200)
-    }
-}
-//点击缓动返回顶部
-$('.imgmenu_ico3').on('click', function () {
-    let timer = setInterval(() => {
-        let scrollT = $(document).scrollTop()
-        let speed = Math.floor(-scrollT / 7)
-        console.log(speed);
-        if (scrollT == 0) {
-            clearInterval(timer)
-        } else {
-            $(document).scrollTop(scrollT + speed)
-        }
-    }, 30);
-})
-
 // recomd数据请求
 $.ajax({
     url: 'http://127.0.0.1/wutuojia/php/data.php',
     type: 'post',
-    data: { recomd: 1 },
+    data: { recommd: 1 },
     dataType: 'json',
     success: function (res) {
         for (let i = 0; i < res.length; i++) {
@@ -146,5 +116,22 @@ $.ajax({
     }
 })
 
-//懒加载
-$('.lazyload').lazyload()
+// mytake数据请求
+// $.ajax({
+//     url: 'http://127.0.0.1/wutuojia/php/data.php',
+//     type: 'post',
+//     data: { mytake_ul: 1 },
+//     // dataType: 'json',
+//     success: function (res) {
+//         console.log(res);
+//         // for (let i = 0; i < res.length; i++) {
+//         //     $('.recommd-main .lazyload').eq(i).attr('data-src', res[i].data_src)
+//         //     $('.recommd-body').eq(i).find('dd').find('a').html(res[i].goods)
+//         //     $('.recommd-body').eq(i).find('dd').find('p').html(res[i].info1)
+//         //     $('.recommd-body').eq(i).find('dd').find('span').html(res[i].info2)
+//         // }
+//     }
+// })
+
+
+

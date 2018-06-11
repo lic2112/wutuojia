@@ -12,7 +12,7 @@ a { color:#333; text-decoration:none; }
 .layout {width: 1200px;margin: 0 auto}
 
 /* header */
-.header{height: 81px;}
+.header{height: 81px;border-bottom: 1px solid #ddd;}
 .header_l {margin-top: 20px;float: left;overflow: hidden;}
 .header_l .menu {float: left; width: 88px;height: 40px;background: url(../img/logo.png) no-repeat;margin: 0 73px 0 36px}
 .header_l ul {float: left;}
@@ -61,6 +61,7 @@ a { color:#333; text-decoration:none; }
 .links {padding: 10px 0;overflow: hidden;}
 .links_l {float: left;width: 1150px;}
 .links_l a {display: inline-block;color: #999;margin-right: 13px;font-size: 12px;}
+.links_l a:hover {color: #333;}
 .links_l .links_m {display: none;}
 .links_moreIcon {background: url(../img/commodityicon.png) no-repeat -45px 0;width: 17px;height: 17px;float: right;margin-right: 30px;cursor: pointer;}
 
@@ -74,6 +75,8 @@ a { color:#333; text-decoration:none; }
 .imgmenu_ico3 { background-position: -280px -413px;height: 26px;width: 28px;}
 
 /* login */
+.cover {overflow: hidden;}
+
 .login {position: absolute;left: 0;top: 0;right: 0;bottom: 0;margin: auto;display: none;z-index: 999;height: 100%;}
 .login-back {position: absolute;z-index: -1;opacity: 0.8;background: #fff;height: 100%;width: 100%;}
 .login .close {display: block;width: 35px;height: 35px;background: url(../img/commodityicon.png) no-repeat -40px -149px;position: absolute; right: 20px;top: 20px;z-index: 999;}
@@ -120,3 +123,5 @@ a { color:#333; text-decoration:none; }
 .register li:nth-child(4) a {display: block; height: 46px;line-height: 46px;font-size: 14px;font-weight: bold;border-radius: 4px;background: #111;color: #fff;text-align: center;}
 .register li:nth-child(5) {text-align: center;height: 40px;line-height: 40px;}
 .register li:nth-child(5) i {color: #999}
+.lj-register {cursor: pointer;}
+.lj-login {cursor: pointer;}

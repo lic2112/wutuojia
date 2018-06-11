@@ -57,11 +57,28 @@ $recommd = '[
         "info2": "家品百货"
     }
 ]';
+$mytake_ul = '[
+    {
+        "data_src": "img/mytake/20160704034030_342995.png"
+    },
+    {
+        "data_src": "img/mytake/20160619183316_599496.png"
+    },
+    {
+        "data_src": "img/mytake/20160617181115_678389.png"
+    },
+    {
+        "data_src": "img/mytake/20170819152408_648156.png"
+    }
+]';
 
-if($_REQUEST['recomd']){
+if($_REQUEST['recommd']){
     echo $recommd;
-}
+};
 
+// if($_REQUEST['mytake_ul']){
+//     echo $mytake_ul;
+// };
 
 
 

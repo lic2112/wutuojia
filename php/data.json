@@ -57,3 +57,101 @@
         "info2": "家品百货"
     }
 ]
+//mytake-ul
+[
+    {
+        "data_src": "img/mytake/20160704034030_342995.png"
+    },
+    {
+        "data_src": "img/mytake/20160619183316_599496.png"
+    },
+    {
+        "data_src": "img/mytake/20160617181115_678389.png"
+    },
+    {
+        "data_src": "img/mytake/20170819152408_648156.png"
+    }
+]
+// work-ul
+[
+    {
+        [
+            {
+                "data_src": "img/mytake/202419_908473.png",
+                "info": "[WOWHOO]Harold Cabinet by Jesse Visse设计师复刻版收纳柜衣柜"
+            },
+            {
+                "data_src": "img/mytake/213145_935734.png",
+                "info": "【現貨】丹麥Ferm Livin..."
+            },
+            {
+                "data_src": "img/mytake/211335_392875.jpg",
+                "info": "進口英國Tom Dixon 2016年新品 大理石檯燈/桌燈"
+            },
+            {
+                "data_src": "img/mytake/210226_286167.png",
+                "info": "[WOWHOO]Alana Kingsize Bed电镀玫瑰金北欧风不锈钢金属大床"
+            },
+        ]
+    },
+    {
+        [
+            {
+                "data_src": "img/mytake/144218_700992.png",
+                "info": "印度进口手工编织羊毛几何地毯100%纯羊毛客厅地毯挂毯茶几地毯"
+            },
+            {
+                "data_src": "img/mytake/134929_202223.png",
+                "info": "抱枕"
+            },
+            {
+                "data_src": "img/mytake/190851_841213.png",
+                "info": "拼色拉链腰靠枕套"
+            },
+            {
+                "data_src": "img/mytake/190555_705198.png",
+                "info": "透明彩色鱼缸吊灯"
+            }
+        ]
+    },
+    {
+        [
+            {
+                "data_src": "img/mytake/201556_826244.jpg",
+                "info": "地毯客厅黑白条纹地毯羊毛客厅茶几卧室书房时尚现代腈纶定做"
+            },
+            {
+                "data_src": "img/mytake/152556_359554.png",
+                "info": "拉赫蒂/lahti】redondo 2-seat sofa 215雷东多2-seat沙发215"
+            },
+            {
+                "data_src": "img/mytake/162500_98468.png",
+                "info": "现代简约美式乡村工业风金属落地灯别墅酒店客厅灯样板房装饰地灯"
+            },
+            {
+                "data_src": "img/mytake/165339_936565.png",
+                "info": "C形小茶几"
+            }
+        ]
+    },
+    {
+        [
+            {
+                "data_src": "img/mytake/153355_553641.png",
+                "info": "卡通小马被子床单四件套"
+            },
+            {
+                "data_src": "img/mytake/154113_152000.png",
+                "info": "儿童涂鸦 艺术壁纸"
+            },
+            {
+                "data_src": "img/mytake/153220_847120.png",
+                "info": "儿童椅造型椅 小马烤漆椅"
+            },
+            {
+                "data_src": "img/mytake/153502_73150.png",
+                "info": "呆萌小动物卡通抱枕靠枕居家用品"
+            }
+        ]
+    }
+]
