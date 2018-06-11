@@ -6,12 +6,12 @@ $('.banner-list>li').hover(function () {
     $(this).children('.banner-list-box').css({ display: 'none' }).stop().animate({ width: 0 })
 })
 
-// banner轮播
+// 轮播效果
 class Banner {
-    constructor() {
-        this.next = $('.next');
-        this.prev = $('.prev');
-        this.aImg = $('.imgbox').children();
+    constructor(obj) {
+        this.next = obj.next;
+        this.prev = obj.prev;
+        this.aImg = obj.aImg;
         this.index = this.aImg.length - 1;
         this.iNow = 0;
         this.init();
@@ -59,7 +59,18 @@ class Banner {
         })
     }
 }
-new Banner()
+// Banner轮播
+new Banner({
+    next: $('.next'),
+    prev: $('.prev'),
+    aImg: $('.imgbox').children()
+})
+// Brands轮播
+new Banner({
+    next: $('.next_b'),
+    prev: $('.prev_b'),
+    aImg: $('.tempWrap ul').children('li')
+})
 
 //懒加载
 $('.lazyload').lazyload()
@@ -78,5 +89,62 @@ $('.links_moreIcon').on('click', function () {
 })
 
 // ingmenu
+onscroll = function () {
+    if ($(document).scrollTop() > 400) {
+        $('.ingmenu').stop().show(200)
+    } else {
+        $('.ingmenu').stop().hide(200)
+    }
+}
+//点击缓动返回顶部
+$('.imgmenu_ico3').on('click', function () {
+    let timer = setInterval(() => {
+        let scrollT = $(document).scrollTop()
+        let speed = Math.floor(-scrollT / 7)
+        console.log(speed);
+        if (scrollT == 0) {
+            clearInterval(timer)
+        } else {
+            $(document).scrollTop(scrollT + speed)
+        }
+    }, 30);
+})
 
+// recomd数据请求
+$.ajax({
+    url: 'http://127.0.0.1/wutuojia/php/data.php',
+    type: 'post',
+    data: { recomd: 1 },
+    dataType: 'json',
+    success: function (res) {
+        for (let i = 0; i < res.length; i++) {
+            $('.lazyload').eq(i).attr('data-src', res[i].data_src)
+            $('.recommd-body').eq(i).find('dd').find('a').html(res[i].goods)
+            $('.recommd-body').eq(i).find('dd').find('p').html(res[i].info1)
+            $('.recommd-body').eq(i).find('dd').find('span').html(res[i].info2)
+        }
+    },
+    beforeSend: function () {
+        let str = '';
+        for (let i = 0; i < 8; i++) {
+            str += `<div class="recommd-body">
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/rd1.png" alt="" class="lazyload">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href=""></a>
+                                <p></p>
+                                <span></span>
+                            </dd>
+                        </dl>
+                    </div>`
+        }
+        $('.recommd-main').html(str)
+    }
+})
 
+//懒加载
+$('.lazyload').lazyload()

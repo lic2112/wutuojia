@@ -1,5 +1,5 @@
-<?php
-$recommd = '[
+// recommd
+[
     {
         "src": "img/rd1.png",
         "data_src": "img/recommd/094350_123422.png",
@@ -56,20 +56,4 @@ $recommd = '[
         "info1": "Top Art Studio欧式风格精细骨瓷混搭黄色花纹咖啡杯碟",
         "info2": "家品百货"
     }
-]';
-
-if($_REQUEST['recomd']){
-    echo $recommd;
-}
-
-
-
-
-
-
-
-
-
-
-
-?>
+]

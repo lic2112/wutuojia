@@ -9,29 +9,8 @@ ul, ol { list-style:none; }
 body { color:#333; font:14px/20px "微软雅黑"; background:#fff;overflow-y:scroll; overflow-x:hidden;}
 a { color:#333; text-decoration:none; }
 
-/* header */
-.header{height: 81px;}
-.header_l {margin-top: 20px;float: left;overflow: hidden;}
-.header_l .menu {float: left; width: 88px;height: 40px;background: url(../img/logo.png) no-repeat;margin: 0 73px 0 36px}
-.header_l ul {float: left;}
-.header_l ul li {float: left; margin-right: 60px;line-height: 40px;}
-.header_l ul li a {font-size: 16px}
-.header_l ul li a:hover {color: #666;}
-.header_l ul li i {background: #111;font-style: normal;color: #fff;border-radius: 2px;}
-.header_l .search {float: left; width: 22px;height: 22px;background: url(../img/wtjicon.png) no-repeat 0 0 ;margin-top: 9px;cursor: pointer;}
-.header_l .search:hover {background: url(../img/wtjicon.png) no-repeat -25px 0}
-
-.header_r {float: right;margin-right: 20px;display: flex;align-items: center}
-.header_r a.create {display: flex; width: 100px;height: 30px;background: #111;border-radius: 15px;align-items: center;line-height: 81px;}
-.header_r a.create i {width: 32px;height: 22px; background: url(../img/mybuild_btn.png) no-repeat;margin-left: 12px;}
-.header_r a.create h2 {font-size: 12px;font-weight: normal;color: #fff;}
-.header_r span {display: flex;align-items: center;width: 94px;height: 80px;padding-left: 40px;}
-.header_r span a{float: left;}
-.header_r span a i {display: block; width: 25px;height: 25px; background:url(../img/wtjicon.png) no-repeat -52px 0}
-.header_r span a b {display: block; width: 14px;height: 14px;background:url(../img/wtjicon.png) no-repeat -52px -25px;margin-left: 20px}
-
 /* banner */
-.banner {width: 1349px;height: 548px;position: relative;}
+.banner {width: 1349px;height: 548px;position: relative;margin-bottom: 80px;}
 .prev {position: absolute;width: 42px;height: 78px;background: url(../img/wtjicon.png) no-repeat -125px -30px;left: 10px;top: 50%;z-index: 9}
 .prev:hover{background-position: -220px -30px;}
 .next {position: absolute;width: 42px;height: 78px;background: url(../img/wtjicon.png) no-repeat -168px -30px;right: 10px;top: 50%;z-index: 9;}
@@ -51,58 +30,7 @@ a { color:#333; text-decoration:none; }
 .banner-list-box ul{float: left; margin: 30px 0 30px 50px }
 .banner-list-box a {color: #fff;font-size: 12px;display: block;height: 26px;line-height: 26px;text-align: left;}
 
-/* login */
-.login {position: absolute;left: 0;top: 0;right: 0;bottom: 0;margin: auto;display: none;z-index: 999;height: 100%;}
-.login-back {position: absolute;z-index: -1;opacity: 0.8;background: #fff;height: 100%;width: 100%;}
-.login .close {display: block;width: 35px;height: 35px;background: url(../img/commodityicon.png) no-repeat -40px -149px;position: absolute; right: 20px;top: 20px;z-index: 999;}
-
-.login .login-main {margin:auto;margin-top: 50px;width: 420px;height: 468px;padding: 40px;z-index: 999;}
-.login-main h3{color: #333;font-size: 20px;height: 38px;display: block;text-align: center;}
-.login-main p {line-height: 22px;font-size: 12px;}
-
-.other-login {display: flex;justify-content: space-between;padding: 23px 0 2px;}
-.other-login a {color: #fff;height: 46px;line-height: 46px;font-size: 14px;text-indent: 25px; border-radius: 4px;text-align: center;position: relative;}
-.other-login a:hover {opacity: .8;}
-.other-login a i{position: absolute;display: inline-block;background-image: url(../img/wtjicon.png);left: 10px;top: 10px;opacity: 0.8;}
-.other-login a:nth-child(1) {width: 130px;background: #e74c3a;}
-.other-login a:nth-child(1) i {width: 29px;height: 23px;background-position: -94px 0;}
-.other-login a:nth-child(2) {width: 130px;background: #1dadea;}
-.other-login a:nth-child(2) i {width: 25px;height: 25px;background-position: -126px 0;}
-.other-login a:nth-child(3) {width: 130px;background: #00c400;}
-.other-login a:nth-child(3) i {width: 28px;height: 23px;background-position: -154px 0;}
-
-.login-body li {color: #333;margin-top: 5px;}
-.login-body li:nth-child(1) {padding: 25px 0 20px;}
-.login-body li:nth-child(2) input{width: 418px;height: 46px;line-height: 46px;text-indent: 15px;font-size: 14px;border: 1px solid #999;}
-.login-body li:nth-child(3) {margin: 15px 0 20px;}
-.login-body li:nth-child(3) input {width: 418px;height: 46px;line-height: 46px;text-indent: 15px;font-size: 14px;border: 1px solid #999;}
-.login-body li:nth-child(4) {margin-top: 5px;}
-.login-body li:nth-child(4) a {float: right;}
-.login-body li:nth-child(5) {margin-top: 15px;}
-.login-body li:nth-child(5) a {display: block; height: 46px;line-height: 46px;font-size: 14px;font-weight: bold;border-radius: 4px;background: #111;color: #fff;text-align: center;}
-.login-body li:nth-child(6) {text-align: center;height: 40px;line-height: 40px;}
-.login-body li:nth-child(6) i {color: #999}
-
-
-.login .register {margin:auto;margin-top: 50px;width: 420px;height: 468px;padding: 40px;display: none;}
-.register h3{color: #333;font-size: 20px;height: 38px;display: block;text-align: center;}
-.register p {line-height: 22px;font-size: 12px;}
-
-.register li {color: #333;margin-top: 5px;}
-.register li:nth-child(1) {padding: 25px 0 20px;}
-.register li:nth-child(2) input{width: 418px;height: 46px;line-height: 46px;text-indent: 15px;font-size: 14px;border: 1px solid #999;}
-.register li:nth-child(3) {margin: 15px 0 20px;}
-.register li:nth-child(3) input {width: 418px;height: 46px;line-height: 46px;text-indent: 15px;font-size: 14px;border: 1px solid #999;}
-
-.register li:nth-child(4) {margin-top: 15px;}
-.register li:nth-child(4) a {display: block; height: 46px;line-height: 46px;font-size: 14px;font-weight: bold;border-radius: 4px;background: #111;color: #fff;text-align: center;}
-.register li:nth-child(5) {text-align: center;height: 40px;line-height: 40px;}
-.register li:nth-child(5) i {color: #999}
-
-
-.layout {width: 1200px;margin: 0 auto}
-
-.recommd {margin-top: 80px;}
+/* recomd */
 .recommd-t {overflow: hidden;}
 .recommd-t h2 {width: 181px;height: 44px;background: url(../img/wtjicon.png) no-repeat 0px  -136px;display: inline-block}
 .recommd-t .more {float: right;width: 89px;height: 43px;padding: 25px 25px 0 0;}
@@ -197,9 +125,10 @@ a { color:#333; text-decoration:none; }
 .brands-main .next_b {right: 25px;background-position:-203px -463px}
 .brands-main .next_b:hover {right: 25px;background-position:-233px -463px;}
 
-.tempWrap {position: absolute;left: 0;top: 0;right: 0;bottom: 0;margin: auto;width: 1075px;height: 515px;}
-.tempWrap ul {overflow: hidden;}
-.clone {float: left;overflow: hidden;}
+.tempWrap {position: absolute;left: 0;top: 0;right: 0;bottom: 0;margin: auto;}
+.tempWrap ul {overflow: hidden;position: relative;width: 1075px;height: 515px;}
+.clone {overflow: hidden;width: 1075px;left: 1075px;position: absolute}
+.clone:nth-child(1){left: 0;}
 .clone_l {float: left;}
 .clone_l i {width: 80px;height: 114px;display: block;background: url(../img/wtjicon.png) no-repeat -189px -345px;}
 .clone_c {float: left;height: 515px;width: 300px;position: relative;z-index: 1}
@@ -216,42 +145,3 @@ a { color:#333; text-decoration:none; }
 .clone_r a p {font-size: 12px;color: #666;line-height: 20px;white-space:nowrap;overflow: hidden;}
 .clone_r a small {color: #999;}
 
-/* footer */
-.footer {background: #f0f0f0;color: #999;margin-top: 80px;}
-.footer_t {display: flex;justify-content: space-around;padding: 40px 0;border-bottom: 1px solid #ddd;}
-.footer_t a {overflow: hidden;}
-.footer_t a i {float: left;background: url(../img/b_ic.png) no-repeat;}
-.footer_t a .footer_t_aright{float: left;margin-left: 44px;}
-.footer_t a span {color: #333;font-size: 24px;line-height: 24px;}
-.footer_t a p {color: #999;font-size: 16px ;margin-top: 6px;}
-.footer_t a:nth-child(1) i{width: 58px; height: 36px;margin-top: 10px;}
-.footer_t a:nth-child(2) i{width: 49px; height: 49px;background-position: -66px 0;}
-.footer_t a:nth-child(3) i{width: 47px; height: 47px;background-position: -123px 0;}
-
-.footer_c {padding: 30px 0;border-bottom: 1px solid #ddd;overflow: hidden;}
-.footer_c_l  {float: left;}
-.footer_c_l img {width: 114px;}
-.footer_c_l p {margin-top: 65px;font-size: 12px;}
-.footer_c_l span {font-size: 12px;}
-.footer_c_c {float: left;overflow: hidden;margin-left: 100px;}
-.footer_c_c ul {float: left;overflow: hidden;margin-right: 100px;}
-.footer_c_c ul span {display: block; font-size: 18px;color: #333;margin-bottom: 20px;}
-.footer_c_c ul li {height: 24px;line-height: 24px;}
-.footer_c_c ul li a {color: #999;font-size: 12px;}
-.footer_c_c ul li a:hover {color: #333}
-.footer_c_r {float: right;}
-.footer_c_r p {font-size: 12px;color: #999;margin-top: 10px;text-align: center;}
-
-.links {padding: 10px 0;overflow: hidden;}
-.links_l {float: left;width: 1150px;}
-.links_l a {display: inline-block;color: #999;margin-right: 13px;font-size: 12px;}
-.links_l .links_m {display: none;}
-.links_moreIcon {background: url(../img/commodityicon.png) no-repeat -45px 0;width: 17px;height: 17px;float: right;margin-right: 30px;cursor: pointer;}
-
-/* ingmenu */
-.ingmenu {position: fixed;right: 30px;bottom: 100px;width: 24px;z-index: 999;display: none;}
-.ingmenu li {position: relative;margin-bottom: 30px;}
-.ingmenu li a {display: block;background-image: url(../img/wtjicon.png);}
-.imgmenu_ico1 { background-position: -280px -345px;height: 34px;width: 27px;}
-.imgmenu_ico2 { background-position: -65px -360px;height: 24px;width: 22px;}
-.imgmenu_ico3 { background-position: -280px -413px;height: 26px;width: 28px;}
