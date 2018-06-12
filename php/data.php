@@ -173,6 +173,45 @@ $brands = '[
     }
 ]';
 
+$rec_commodity_ul = '[
+    {
+        "data_src":"img/items/140856_504183.png",
+        "info1":"斯品家居",
+        "info2":"斯品北欧宜家中密度纤维板亚光白色书桌",
+        "info3":"书桌"
+    },
+    {
+        "data_src":"img/items/100533_329064.png",
+        "info1":"斯品家居",
+        "info2":"斯品北欧宜家棉布绿色摇椅",
+        "info3":"摇椅"
+    },
+    {
+        "data_src":"img/items/134803_432193.png",
+        "info1":"斯品家居",
+        "info2":"斯品北欧宜家中密度纤维板亚光白色书桌",
+        "info3":"书桌"
+    },
+    {
+        "data_src":"img/items/135935_506277.png",
+        "info1":"斯品家居",
+        "info2":"斯品北欧宜家麻纺面料灰色沙发圆凳",
+        "info3":"沙发凳/脚踏"
+    },
+    {
+        "data_src":"img/items/143645_490325.png",
+        "info1":"斯品家居",
+        "info2":"斯品北欧宜家桦木白色餐椅",
+        "info3":"餐椅"
+    },
+    {
+        "data_src":"img/items/112909_743208.png",
+        "info1":"斯品家居",
+        "info2":"斯品北欧宜家桦木原木色衣帽架",
+        "info3":"衣帽架"
+    }
+]';
+
 if (@$_REQUEST['recommd']) {
     echo $recommd;
 };
@@ -187,6 +226,10 @@ if (@$_REQUEST['work_ul']) {
 
 if (@$_REQUEST['brands']) {
     echo $brands;
+};
+
+if (@$_REQUEST['rec_commodity_ul']) {
+    echo $rec_commodity_ul;
 };
 
 

@@ -6,7 +6,7 @@ html,body{height: 100%;}
 img{display: block;}
 address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
 ul, ol { list-style:none; } 
-body { color:#333; font:14px/20px "微软雅黑"; background:#fff;overflow-y:scroll; overflow-x:hidden;}
+body { color:#333; font:12px/20px "微软雅黑"; background:#fff;overflow-y:scroll; overflow-x:hidden;}
 a { color:#333; text-decoration:none; }
 
 .layout {width: 1200px;margin: 0 auto}
@@ -128,7 +128,7 @@ a { color:#333; text-decoration:none; }
 
 
 /* banner */
-.banner {width: 1349px;height: 548px;position: relative;margin-bottom: 80px;}
+.banner {width: 1349px;height: 548px;position: relative;}
 .prev {position: absolute;width: 42px;height: 78px;background: url(../img/wtjicon.png) no-repeat -125px -30px;left: 10px;top: 50%;z-index: 9}
 .prev:hover{background-position: -220px -30px;}
 .next {position: absolute;width: 42px;height: 78px;background: url(../img/wtjicon.png) no-repeat -168px -30px;right: 10px;top: 50%;z-index: 9;}

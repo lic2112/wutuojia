@@ -1,11 +1,16 @@
 .nav{
     overflow: hidden;
     position: relative;
-    .nav_l{float: left;
-        a {display: inline-block;height: 12px;line-height: 12px;margin-top: 20px;margin-right: 15px;color: #999;}
-        i {display: inline-block;width: 7px;height: 12px;background:url(../img/productdetailsicon.png) no-repeat 0 0 ;margin-right: 15px;}
+    .nav_l{
+        float: left;
+        a {
+            display: inline-block;height: 12px;line-height: 12px;margin-top: 20px;margin-right: 15px;color: #999;
+        }
+        i {
+            display: inline-block;width: 7px;height: 12px;background:url(../img/productdetailsicon.png) no-repeat 0 0 ;margin-right: 15px;}
     }
-    .nav_c {position: absolute;left: 480px;
+    .nav_c {
+        position: absolute;left: 480px;width: 700px;
         li{width: 40px;height: 40px;margin-right: 15px;float: left;line-height: 40px;
             img {width: 40px;opacity: .7;cursor: pointer;}
         }
@@ -13,14 +18,157 @@
 }
 
 .item_ul {
-    width: 1349px;height: 548px;overflow: hidden;position: relative;
-    li{width: 1349px;height: 548px;position: absolute;left:1349px;
-        .item_ul_pic{position: relative;width: 1349px;height: 548px;
-            img{position: absolute;left: 0;top: 0;right: 0;bottom: 0;margin: auto;max-width: 100%;}
-            div {position: absolute;left: 75px;bottom: 0;width: 350px;background-color: #ccc;opacity: .85;padding:30px;
-                h1{font-size: 26px;line-height: 32px;margin-bottom: 10px;}
+    width: 1349px;height: 548px;
+    li{
+        .item_ul_pic{
+            position: relative;width: 1349px;height: 548px;
+            img{position: absolute;left: 0;top: 0;right: 0;bottom: 0;margin: auto;max-width: 100%;
+            }
+            div {
+                position: absolute;left: 75px;bottom: 0;width: 350px;background-color: #ccc;opacity: .85;padding:30px;
+                h1{
+                    font-size: 26px;line-height: 32px;margin-bottom: 10px;
+                    }
             }
         }
     }
-    li:nth-child(1){left:0}
+}
+
+.product_menu {
+    overflow: hidden;border-bottom: 1px solid #ddd;
+    .product_menu_l {
+        float: left;
+        a {
+            display: inline-block;color: #999;width: 120px;text-align: center;height: 59px;line-height: 59px;font-size: 14px;box-sizing: border-box;cursor: pointer;
+            }
+        a:hover {
+            color: #333;border-bottom: 2px solid #111;}
+    }
+    .product_menu_r {
+        float: right;
+        a span {font-size: 12px;}
+        .mylike {
+            border: 1px solid #ddd;float: left;border-radius: 50px;height: 45px;line-height: 45px;padding-left: 20px;color: #333;margin:0 5px;
+            i {
+                display: inline-block;background: url(../img/commodityicon.png) no-repeat -52px -251px;width: 16px;height: 14px;margin-right: 8px;
+                }
+            span {
+                line-height: 45px;display: inline-block;margin-right: 20px;
+                }
+        }
+        .mylike:hover {border: 1px solid #333}
+        .add_collect {
+            float: left;border: 1px solid #ddd;border-radius: 50px;height: 45px;line-height: 45px;
+            padding: 0 14px;margin:0 5px;; 
+            i {
+                display: inline-block;background: url(../img/commodityicon.png) no-repeat -52px -268px;height: 17px;margin-right: 8px;width: 15px;
+            }
+        }
+        .add_collect:hover {border: 1px solid #333}
+        .share_div {float: right;border-radius: 50px;height: 45px;line-height: 45px;border: 1px solid #ddd;margin:0 5px;
+            a {display: inline-block;padding: 0 20px;
+                i {
+                    display: inline-block;background: url(../img/commodityicon.png) no-repeat -52px -306px;height: 18px;margin-right: 8px;width: 13px;
+                }
+            }
+        }
+        .share_div:hover {border: 1px solid #333}
+    }
+}
+
+.product_main{
+    overflow: hidden;position: relative;
+    .link_product {
+                height: 40px;border-bottom: 1px solid #111;width: 40px;overflow: hidden;
+            }
+    .product-details-l{
+        margin-bottom: 110px;width: 970px;float: left;
+        .content_row {margin-top: 34px;overflow: hidden;
+            h3 {padding: 8px 0 13px 0;font-size: 30px;font-weight: normal;}
+            p {font-size: 14px;line-height: 25px;}
+            .parameter_div {
+                float: left;width: 378px;font-size: 14px;color: #333;overflow: hidden;
+                dl {
+                    dt{
+                        float: left;width: 90px;padding: 7px 0 2px 0;
+                    }
+                    dd{
+                        margin-left: 70px;padding: 7px 0 2px 0;overflow: hidden;
+                    }
+                }
+            }
+            .space_div {
+                margin-left: 420px;width: 400px;
+                h4{
+                    font-size: 14px;font-weight: normal;line-height: 35px;
+                }
+                .clearfix {
+                    padding-top: 10px;
+                    span {width: 48px;display: inline-block;margin-right: 20px;margin-bottom: 10px;
+                        img{width: 48px;height: 48px;}
+                        h5{font-weight: normal;color: #333;margin-top: 10px;font-size: 12px;text-align: center;}
+                    }
+                }
+                .price {margin-top: 35px;font-size: 14px;}
+            }
+        }
+        .product-content-row{
+            margin-top: 30px;overflow: hidden;
+            h3 {padding: 8px 0 13px 0;font-size: 30px;font-weight: normal;}
+            .material-ul {
+                li {
+                    width: 120px;margin-right: 20px;
+                    img{width: 120px;height: 120px;}
+                    span {font-size: 14px;height: 34px;display: block;line-height: 34px;text-align: center;}
+                }
+            }
+            .rec-commodity-ul {
+                li{
+                    width: 300px;height: 405px;float:left; margin-top:
+                    10px;position: relative;
+                    .commodity-box-main {position: absolute;padding: 12px;}
+                    .commodity-img-box {display: inline-block;height: 276px;width: 276px;position: relative;z-index: 2;line-height: 276px;overflow: hidden;text-align: center;
+                        a img{
+                            max-width: 270px;position: absolute;left: 0;top: 0;right: 0;bottom: 0;margin: auto;
+                        }
+                    }
+                    .rec-commodity-explain {position: relative;z-index: 1;
+                        .impression{
+                            margin-top: 15px;color: #999;
+                        }
+                        .material{
+                            height: 35px;line-height: 35px;overflow: hidden;font-size: 14px;
+                        }
+                        .attribute{margin-bottom: 15px;color: #999;}
+                    }
+                }
+            }
+        }
+    }
+    .product-details-r{
+        position: absolute;top: 140px;right: 0;width: 190px;z-index: 99;
+        .product-details-logo img {width: 188px;border: 1px solid #f0f0f0;border-top: none;}
+        .product-details-r-menu {
+            background-color: #f0f0f0;padding: 40px;
+padding-right: 0px;
+            ul li{
+                margin-bottom: 34px;
+                a{
+                    color: #999;position: relative;
+                    span {
+                        height: 21px;width: 20px;position: relative;float: left;margin-right: 10px;
+                        i{
+                            display:inline-block;background: url(../img/items/productdetailsicon.png) no-repeat;top: 50%;position: absolute;left: 50%;width: 14px;height: 15px;margin-left: -7px;margin-top: -8px;
+                        }
+                    }
+                }
+                a:hover{color: #333;}
+                .story-ico i {background-position: 0px -153px}
+                .parameter-ico i {background-position: -23px -174px}
+                .outline-ico i {background-position: -69px -174px}
+                .specifications-ico i {background-position: -114px -174px;width: 16px;height: 17px;margin-top: -9px;}
+                .series-ico i {background-position: -138px -174px;width: 16px;height: 17px;margin-top: -9px;}
+            }
+        }
+    }
 }
