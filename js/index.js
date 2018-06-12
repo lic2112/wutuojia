@@ -7,58 +7,58 @@ $('.banner-list>li').hover(function () {
 });
 
 // 轮播效果
-// class Banner {
-//     constructor(obj) {
-//         this.next = obj.next;
-//         this.prev = obj.prev;
-//         this.aImg = obj.aImg;
-//         this.index = this.aImg.length - 1;
-//         this.iNow = 0;
-//         this.init();
-//         this.auto();
-//     }
-//     init() {
-//         let that = this
-//         this.next.on('click', function () {
-//             if (that.iNow == that.aImg.length - 1) {
-//                 that.iNow = 0;
-//                 that.index = that.aImg.length - 1;
-//             } else {
-//                 that.iNow++;
-//                 that.index = that.iNow - 1;
-//             }
-//             that.move(1)
+class Banner {
+    constructor(obj) {
+        this.next = obj.next;
+        this.prev = obj.prev;
+        this.aImg = obj.aImg;
+        this.index = this.aImg.length - 1;
+        this.iNow = 0;
+        this.init();
+        this.auto();
+    }
+    init() {
+        let that = this
+        this.next.on('click', function () {
+            if (that.iNow == that.aImg.length - 1) {
+                that.iNow = 0;
+                that.index = that.aImg.length - 1;
+            } else {
+                that.iNow++;
+                that.index = that.iNow - 1;
+            }
+            that.move(1)
 
-//         })
-//         this.prev.on('click', function () {
-//             if (that.iNow == 0) {
-//                 that.iNow = that.aImg.length - 1;
-//                 that.index = 0;
-//             } else {
-//                 that.iNow--;
-//                 that.index = that.iNow + 1;
-//             }
-//             that.move(-1)
-//         })
-//     }
-//     move(num) {
-//         this.aImg.eq(this.index).css({ left: 0 }).stop().animate({ left: -this.aImg.eq(0).width() * num }, 500)
-//             .end().eq(this.iNow).css({ left: this.aImg.eq(0).width() * num }).stop().animate({ left: 0 }, 500);
-//     }
-//     auto() {
-//         this.timer = setInterval(() => {
-//             this.next.triggerHandler('click')
-//         }, 5000);
-//         let that = this;
-//         this.aImg.hover(function () {
-//             clearInterval(that.timer);
-//         }, function () {
-//             that.timer = setInterval(() => {
-//                 that.next.triggerHandler('click')
-//             }, 5000);
-//         })
-//     }
-// }
+        })
+        this.prev.on('click', function () {
+            if (that.iNow == 0) {
+                that.iNow = that.aImg.length - 1;
+                that.index = 0;
+            } else {
+                that.iNow--;
+                that.index = that.iNow + 1;
+            }
+            that.move(-1)
+        })
+    }
+    move(num) {
+        this.aImg.eq(this.index).css({ left: 0 }).stop().animate({ left: -this.aImg.eq(0).width() * num }, 500)
+            .end().eq(this.iNow).css({ left: this.aImg.eq(0).width() * num }).stop().animate({ left: 0 }, 500);
+    }
+    auto() {
+        this.timer = setInterval(() => {
+            this.next.triggerHandler('click')
+        }, 5000);
+        let that = this;
+        this.aImg.hover(function () {
+            clearInterval(that.timer);
+        }, function () {
+            that.timer = setInterval(() => {
+                that.next.triggerHandler('click')
+            }, 5000);
+        })
+    }
+}
 // Banner轮播
 new Banner({
     next: $('.next'),
