@@ -125,3 +125,11 @@ a { color:#333; text-decoration:none; }
 .register li:nth-child(5) i {color: #999}
 .lj-register {cursor: pointer;}
 .lj-login {cursor: pointer;}
+
+
+/* banner */
+.banner {width: 1349px;height: 548px;position: relative;margin-bottom: 80px;}
+.prev {position: absolute;width: 42px;height: 78px;background: url(../img/wtjicon.png) no-repeat -125px -30px;left: 10px;top: 50%;z-index: 9}
+.prev:hover{background-position: -220px -30px;}
+.next {position: absolute;width: 42px;height: 78px;background: url(../img/wtjicon.png) no-repeat -168px -30px;right: 10px;top: 50%;z-index: 9;}
+.next:hover{background-position: -265px -30px;}

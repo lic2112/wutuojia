@@ -1,0 +1,45 @@
+.nav {
+  overflow: hidden;
+  position: relative;
+}
+
+.nav .nav_l {
+  float: left;
+}
+
+.nav .nav_l a {
+  display: inline-block;
+  height: 12px;
+  line-height: 12px;
+  margin-top: 20px;
+  margin-right: 15px;
+  color: #999;
+}
+
+.nav .nav_l i {
+  display: inline-block;
+  width: 7px;
+  height: 12px;
+  background: url(../img/productdetailsicon.png) no-repeat 0 0;
+  margin-right: 15px;
+}
+
+.nav .nav_c {
+  position: absolute;
+  left: 480px;
+}
+
+.nav .nav_c li {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  float: left;
+  line-height: 40px;
+}
+
+.nav .nav_c li img {
+  width: 40px;
+  opacity: .7;
+  cursor: pointer;
+}
+/*# sourceMappingURL=item.css.map */

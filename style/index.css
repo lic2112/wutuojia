@@ -125,8 +125,8 @@ a { color:#333; text-decoration:none; }
 .brands-main .next_b {right: 25px;background-position:-203px -463px}
 .brands-main .next_b:hover {right: 25px;background-position:-233px -463px;}
 
-.tempWrap {position: absolute;left: 0;top: 0;right: 0;bottom: 0;margin: auto;}
-.tempWrap ul {overflow: hidden;position: relative;width: 1075px;height: 515px;}
+.tempWrap {height: 618px;position: relative;}
+.tempWrap ul {overflow: hidden;position: absolute;width: 1075px;height: 515px;left: 0;top: 0;right: 0;bottom: 0;margin: auto;}
 .clone {overflow: hidden;width: 1075px;left: 1075px;position: absolute}
 .clone:nth-child(1){left: 0;}
 .clone_l {float: left;}
