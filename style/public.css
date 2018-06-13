@@ -36,6 +36,16 @@ a { color:#333; text-decoration:none; }
 .dropdown-menu-wtj a {display: block;color: #434343;padding: 0 20px;height: 46px;line-height: 46px;box-sizing: border-box;}
 .dropdown-menu-wtj a:hover {background-color: #434343;color: #fff;}
 
+/* recomd index和list用到 */
+.recommd-main {width: 1240px;display: flex;flex-wrap: wrap;}
+.recommd-body {width: 300px;padding: 12px;overflow: hidden;box-sizing: border-box}
+.recommd-body dl {width: 276px;height: 405px;float:left;margin-top: 10px;position: relative;}
+.recommd-body dl dt a{display: block; height: 276px;width: 276px;text-align: center;line-height: 276px;}
+.recommd-body dl dt a img{display: inline-block;vertical-align: middle;max-width: 100%;max-height: 100%;}
+.recommd-body dl dd a {display: block;margin-top: 15px;font-size: 12px;}
+.recommd-body dl dd p {height: 35px;line-height: 35px; font-size:14px;overflow: hidden;}
+.recommd-body dl dd span {display: block;margin-bottom: 15px;color: #999;}
+
 
 
 
@@ -148,7 +158,7 @@ a { color:#333; text-decoration:none; }
 
 /* banner */
 .banner {width: 1349px;height: 548px;position: relative;}
-.prev {position: absolute;width: 42px;height: 78px;background: url(../img/wtjicon.png) no-repeat -125px -30px;left: 10px;top: 50%;z-index: 9}
-.prev:hover{background-position: -220px -30px;}
-.next {position: absolute;width: 42px;height: 78px;background: url(../img/wtjicon.png) no-repeat -168px -30px;right: 10px;top: 50%;z-index: 9;}
-.next:hover{background-position: -265px -30px;}
+.prev_lb {position: absolute;width: 42px;height: 78px;background: url(../img/wtjicon.png) no-repeat -125px -30px;left: 10px;top: 50%;z-index: 9}
+.prev_lb:hover{background-position: -220px -30px;}
+.next_lb {position: absolute;width: 42px;height: 78px;background: url(../img/wtjicon.png) no-repeat -168px -30px;right: 10px;top: 50%;z-index: 9;}
+.next_lb:hover{background-position: -265px -30px;}

@@ -104,12 +104,12 @@ $.ajax({
             str += `<div class="recommd-body">
                         <dl>
                             <dt>
-                                <a href="">
+                                <a href="javascript:">
                                     <img src="img/rd1.png" alt="" class="lazyload">
                                 </a>
                             </dt>
                             <dd>
-                                <a href=""></a>
+                                <a href="javascript:"></a>
                                 <p></p>
                                 <span></span>
                             </dd>
@@ -167,10 +167,13 @@ $.ajax({
             $('.clone_r').eq(i).find('span').html(res[i].price)
         }
     },
+    // error: function (a, b, c) {
+    //     console.log(b, c);
+    // },
     beforeSend: function () {
         let str = ''
         for (let i = 0; i < 6; i++) {
-            str += `<a href="">
+            str += `<a href="javascript:">
                         <div class="clone_r_div">
                             <img src="img/rd1.png" class="lazyload">
                         </div>

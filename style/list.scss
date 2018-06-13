@@ -1,0 +1,63 @@
+.commodity_select {
+    padding: 50px 0;border-bottom: 1px solid #ddd;
+    ul {
+        overflow: hidden;
+        li {
+            float: left;width: 155px;padding:0 40px;border-left:1px solid #e1e1e1;
+            h3 {
+                position: relative;font-weight: normal;font-size: 20px;color: #333;line-height: 22px;
+                i {
+                    display: inline-block;background: url(../img/wtjcommodity.png) no-repeat;margin-right: 10px;
+                }
+            }
+            .commodity_select_tag {
+                margin-top: 5px;
+                a {
+                    margin-top: 15px;margin-right: 18px;display: inline-block;white-space: nowrap;line-height: 12px;
+                }
+            }
+        }
+        li:nth-child(1) {
+            border-left: none;
+            i {
+                height: 22px;width: 32px;
+            }
+        }
+        li:nth-child(2) i{
+            background-position: -38px 3px;height: 22px;width: 33px;
+        }
+        li:nth-child(3) i{
+            background-position: -78px 0px;height: 21px;width: 29px;
+        }
+        li:nth-child(4) i{
+            background-position: -113px 0px;height: 24px;width: 30px;/* line-height: 24px; */
+        }
+        li:nth-child(5) i{
+            background-position: -152px 0px;height: 23px;width: 30px;/* line-height: 23px; */
+        }
+    }
+}
+
+.recommd {
+    .item_recommd-t {
+        overflow: hidden;margin:40px 0;
+        h2 {
+            float: left;font-size: 18px;color: #333;font-weight: normal;
+        }
+        .pro-nav {
+            float: right;overflow: hidden;
+            li {
+                float: left;color: #999;padding: 0 20px;border-right: 1px solid #999;
+                a {
+                    color: #999;
+                    i {
+                        display: inline-block;background: url(../img/wtjicon.png) no-repeat -18px -26px;width: 17px;height: 17px;margin-left: 7px;
+                    }
+                }
+                a:hover {
+                    color: #333;
+                }
+            }
+        }
+    }
+}

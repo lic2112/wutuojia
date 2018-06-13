@@ -1,14 +1,413 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="libs/pagination.css">
     <link rel="stylesheet" href="style/public.css">
     <link rel="stylesheet" href="style/list.css">
 </head>
+
 <body>
-    
+    <!-- header start -->
+    <div class="header">
+        <div class="header_l">
+            <div class="menu">
+                <a href="index.html"></a>
+            </div>
+            <ul>
+                <li>
+                    <a href="index.html">首页</a>
+                </li>
+                <li>
+                    <a href="#">搭配</a>
+                </li>
+                <li>
+                    <a href="list.html">商品</a>
+                    <i>大厂直供</i>
+                </li>
+                <li>
+                    <a href="#">灵感</a>
+                </li>
+            </ul>
+            <div class="search">
+                <a href="#"></a>
+            </div>
+        </div>
+        <div class="header_r">
+            <a href="" class="create">
+                <i></i>
+                <h2>创建搭配</h2>
+            </a>
+            <span>
+                <a class="myInfo">
+                    <i></i>
+                </a>
+                <a href="javascript:">
+                    <b></b>
+                </a>
+            </span>
+            <div class="dropdown-menu-wtj">
+                <div class="dropdown-menu-qd">
+                    <a href="javascript:">我搭</a>
+                    <a href="javascript:">购物车</a>
+                    <a href="javascript:">关注</a>
+                    <a href="javascript:" class="com-myOrder">我的订单</a>
+                </div>
+                <div class="dropdown-menu-info">
+                    <a href="javascript:">个人资料</a>
+                    <a href="javascript:" class="quit_login">退出登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header over -->
+
+    <!-- commodity_select start -->
+    <div class="commodity_select layout">
+        <ul>
+            <li>
+                <h3>
+                    <i></i>客厅</h3>
+                <div class="commodity_select_tag">
+                    <a href="javascript:">沙发</a>
+                    <a href="javascript:">电视柜</a>
+                    <a href="javascript:">茶几</a>
+                    <a href="javascript:">置物架</a>
+                    <a href="javascript:">地毯</a>
+                </div>
+            </li>
+            <li>
+                <h3>
+                    <i></i>卧室</h3>
+                <div class="commodity_select_tag">
+                    <a href="javascript:">沙发</a>
+                    <a href="javascript:">电视柜</a>
+                    <a href="javascript:">茶几</a>
+                    <a href="javascript:">置物架</a>
+                    <a href="javascript:">地毯</a>
+                </div>
+            </li>
+            <li>
+                <h3>
+                    <i></i>餐厅</h3>
+                <div class="commodity_select_tag">
+                    <a href="javascript:">沙发</a>
+                    <a href="javascript:">电视柜</a>
+                    <a href="javascript:">茶几</a>
+                    <a href="javascript:">置物架</a>
+                    <a href="javascript:">地毯</a>
+                </div>
+            </li>
+            <li>
+                <h3>
+                    <i></i>书房</h3>
+                <div class="commodity_select_tag">
+                    <a href="javascript:">沙发</a>
+                    <a href="javascript:">电视柜</a>
+                    <a href="javascript:">茶几</a>
+                    <a href="javascript:">置物架</a>
+                    <a href="javascript:">地毯</a>
+                </div>
+            </li>
+            <li>
+                <h3>
+                    <i></i>门厅</h3>
+                <div class="commodity_select_tag">
+                    <a href="javascript:">沙发</a>
+                    <a href="javascript:">电视柜</a>
+                    <a href="javascript:">茶几</a>
+                    <a href="javascript:">置物架</a>
+                    <a href="javascript:">地毯</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- commodity_select over -->
+
+    <!-- recommd start -->
+    <div class="recommd layout">
+        <div class="item_recommd-t">
+            <h2>精选商品</h2>
+            <div class="pro-nav">
+                <ul>
+                    <li>
+                        <a href="javascript:">床</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">沙发</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">餐桌</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">茶几</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">床头柜</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">更多
+                            <i></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="recommd-main">
+
+        </div>
+    </div>
+    <!-- recommd over -->
+
+    <!-- page start -->
+    <div id="Pagination" class="pagination"></div>
+    <!-- page over -->
+
+    <!-- topbrand start -->
+    <div class="topbrand">
+        <div class="toopbrand_t">
+            <h2>TOP品牌</h2>
+
+        </div>
+    </div>
+    <!-- topbrand over -->
+
+
+
+
+
+
+
+    <!-- footer start -->
+    <div class="footer">
+        <div class="footer_t layout">
+            <a href="javascript:">
+                <i></i>
+                <div class="footer_t_aright">
+                    <span>大厂直供</span>
+                    <p>海量家居美图发现梦想的家</p>
+                </div>
+            </a>
+            <a href="javascript:">
+                <i></i>
+                <div class="footer_t_aright">
+                    <span>私人搭配师</span>
+                    <p>资深设计师免费帮你搭</p>
+                </div>
+            </a>
+            <a href="javascript:">
+                <i></i>
+                <div class="footer_t_aright">
+                    <span>大厂直供</span>
+                    <p>出厂价格出口品质</p>
+                </div>
+            </a>
+        </div>
+        <div class="footer_c layout">
+            <div class="footer_c_l">
+                <img src="img/wtj-logo.png" alt="">
+                <p>粤ICP备10044327-3</p>
+                <span>©2015 wutuojia.com 广州乌托家信息科技有限公司</span>
+            </div>
+            <div class="footer_c_c">
+                <ul>
+                    <span>关于我们</span>
+                    <li>
+                        <a href="javascript:">关于乌托家</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">战略合作</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">社会招聘</a>
+                    </li>
+                </ul>
+                <ul>
+                    <span>帮助中心</span>
+                    <li>
+                        <a href="javascript:">用户指南</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">常见问题</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">意见反馈</a>
+                    </li>
+                </ul>
+                <ul>
+                    <span>配送安装</span>
+                    <li>
+                        <a href="javascript:">配送服务</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">安装服务</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">收货指南</a>
+                    </li>
+                </ul>
+                <ul>
+                    <span>售后保障</span>
+                    <li>
+                        <a href="javascript:">退货政策</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">退货流程</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">联系我们</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_c_r">
+                <img src="img/qrcode.png" alt="">
+                <p>关注乌拖家公众号</p>
+            </div>
+        </div>
+        <div class="links layout">
+            <div class="links_l">
+                <a href="javascript:">友情链接:</a>
+                <a href="javascript:">家居</a>
+                <a href="javascript:">家居百科</a>
+                <a href="javascript:">家居文库</a>
+                <a href="javascript:">家居品牌</a>
+                <a href="javascript:">家居图片</a>
+                <a href="javascript:">家具搭配</a>
+                <a href="javascript:">精品家具</a>
+                <a href="javascript:">软装配饰</a>
+                <a href="javascript:">一美居网</a>
+                <a href="javascript:">软装设计公司</a>
+                <a href="javascript:">依旧东方情</a>
+                <a href="javascript:">福州装修网</a>
+                <a href="javascript:">家居O2O</a>
+                <a href="javascript:">家具厂</a>
+                <a href="javascript:">乌托家手机版</a>
+                <div class="links_m">
+                    <a href="javascript:">瓷砖批发</a>
+                    <a href="javascript:">装装汇装饰网</a>
+                    <a href="javascript:">家具网</a>
+                    <a href="javascript:">谈家具</a>
+                    <a href="javascript:">定制家具</a>
+                    <a href="javascript:">武汉装饰公司</a>
+                    <a href="javascript:">沙发品牌</a>
+                    <a href="javascript:">苏州家居网</a>
+                    <a href="javascript:">装修网</a>
+                    <a href="javascript:">好房网</a>
+                    <a href="javascript:">上海佳纳软装修公司</a>
+                    <a href="javascript:">中式装修</a>
+                    <a href="javascript:">资讯导航</a>
+                    <a href="javascript:">广州装修</a>
+                    <a href="javascript:">赤峰房地产</a>
+                    <a href="javascript:">美猴网装修门户</a>
+                    <a href="javascript:">不锈钢屏风</a>
+                    <a href="javascript:">成都装饰公司</a>
+                    <a href="javascript:">常州装修网</a>
+                    <a href="javascript:">成都室内设计</a>
+                    <a href="javascript:">实木家具</a>
+                    <a href="javascript:">电动桌</a>
+                    <a href="javascript:">甲醛清除</a>
+                    <a href="javascript:">包头装修 </a>
+                    <a href="javascript:">装修图库网</a>
+                    <a href="javascript:">集成吊顶</a>
+                    <a href="javascript:">家居电商平台</a>
+                </div>
+            </div>
+            <div class="links_moreIcon"></div>
+        </div>
+    </div>
+    <!-- footer over -->
+
+    <!-- login start -->
+    <div class="login">
+        <p class="login-back"></p>
+        <i class="close"></i>
+        <div class="login-main">
+            <h3>登录乌托家</h3>
+            <p>发现灵感，搜集所爱，美好家居就从这里开始。现在就登录乌托家搭建您心仪的家吧</p>
+            <div class="other-login">
+                <a>
+                    <i></i>微博登录</a>
+                <a>
+                    <i></i>QQ登录</a>
+                <a>
+                    <i></i>微信登录</a>
+            </div>
+            <ul class="login-body">
+                <li>通过邮箱或手机号登录</li>
+                <li>
+                    <input type="text" placeholder="邮箱或手机号" id="logTxt1">
+                </li>
+                <li>
+                    <input type="password" placeholder="输入密码" id="logTxt2">
+                </li>
+                <li>
+                    <input type="checkbox" id="auto-login">
+                    <label for="auto-login">下次自动登录</label>
+                    <a>忘记密码</a>
+                </li>
+                <li>
+                    <a class="login-submit">登录</a>
+                </li>
+                <li>
+                    <i>还不是会员?</i>
+                    <a class="lj-register">立即注册</a>
+                </li>
+            </ul>
+        </div>
+        <div class="register">
+            <h3>现在就加入乌托家</h3>
+            <p>发现灵感，搜集所爱，美好家居就从这里开始。现在就登录乌托家搭建您心仪的家吧</p>
+            <div class="other-login">
+                <a>
+                    <i></i>微博登录</a>
+                <a>
+                    <i></i>QQ登录</a>
+                <a>
+                    <i></i>微信登录</a>
+            </div>
+            <ul class="register-body">
+                <li>手机账户注册</li>
+                <li>
+                    <input type="text" placeholder="请输入您的手机号" id="regTxt1">
+                </li>
+                <li>
+                    <input type="password" placeholder="请输入您的密码" id="regTxt2">
+                </li>
+                <li>
+                    <a class="register-submit">确定</a>
+                </li>
+                <li>
+                    <i>我已有账号!</i>
+                    <a class="lj-login">登录</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- login over -->
+
+    <!-- ingmenu start -->
+    <ul class="ingmenu">
+        <li>
+            <a href="javascript:" class="imgmenu_ico1"></a>
+        </li>
+        <li>
+            <a href="javascript:" class="imgmenu_ico2"></a>
+        </li>
+        <li>
+            <a class="imgmenu_ico3"></a>
+        </li>
+    </ul>
+    <!-- ingmunu over -->
 </body>
+<script src="libs/jquery.js"></script>
+<script src="libs/jquery.pagination.js"></script>
+<script src="libs/lazyload.min.js"></script>
+<script src="libs/jquery.cookie.js"></script>
+<script src="js/list.js"></script>
+<script src="js/public.js"></script>
+
 </html>
