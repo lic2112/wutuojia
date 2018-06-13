@@ -31,7 +31,7 @@ $.ajax({
     data: { rec_commodity_ul: 1 },
     dataType: 'json',
     success: function (res) {
-        console.log(res);
+        // console.log(res);
         for (let i = 0; i < res.length; i++) {
             $('.rec-commodity-ul').children('li').eq(i).find('img').attr('data-src', res[i].data_src)
             $('.rec-commodity-ul').children('li').eq(i).find('.impression').find('a').html(res[i].info1)
@@ -66,7 +66,14 @@ $.ajax({
 // scrollIntoView() 
 
 
-
+$('.add_collect').on('click', function () {
+    $('.add_collect').css({ display: 'none' })
+    $('.cancel_collect').css({ display: 'block' })
+})
+$('.cancel_collect').on('click', function () {
+    $('.cancel_collect').css({ display: 'none' })
+    $('.add_collect').css({ display: 'block' })
+})
 
 
 

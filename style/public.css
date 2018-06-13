@@ -32,6 +32,25 @@ a { color:#333; text-decoration:none; }
 .header_r span a i {display: block; width: 25px;height: 25px; background:url(../img/wtjicon.png) no-repeat -52px 0}
 .header_r span a b {display: block; width: 14px;height: 14px;background:url(../img/wtjicon.png) no-repeat -52px -25px;margin-left: 20px}
 
+.dropdown-menu-wtj {position: absolute;width: 140px;border-radius: 4px;top: 80px;right:0;z-index: 999;overflow: hidden;line-height: 30px;background: #fff;display: none;}
+.dropdown-menu-wtj a {display: block;color: #434343;padding: 0 20px;height: 46px;line-height: 46px;box-sizing: border-box;}
+.dropdown-menu-wtj a:hover {background-color: #434343;color: #fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer */
 .footer {background: #f0f0f0;color: #999;margin-top: 80px;}
 .footer_t {display: flex;justify-content: space-around;padding: 40px 0;border-bottom: 1px solid #ddd;}

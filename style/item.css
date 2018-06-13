@@ -146,12 +146,14 @@
 
 .product_menu .product_menu_r .add_collect {
   float: left;
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
   border-radius: 50px;
   height: 45px;
   line-height: 45px;
   padding: 0 14px;
   margin: 0 5px;
+  width: 107px;
+  text-align: center;
 }
 
 .product_menu .product_menu_r .add_collect i {
@@ -163,6 +165,32 @@
 }
 
 .product_menu .product_menu_r .add_collect:hover {
+  border: 1px solid #333;
+}
+
+.product_menu .product_menu_r .cancel_collect {
+  float: left;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 14px;
+  margin: 0 5px;
+  color: #ee4848;
+  display: none;
+  width: 107px;
+  text-align: center;
+}
+
+.product_menu .product_menu_r .cancel_collect i {
+  display: inline-block;
+  background: url(../img/commodityicon.png) no-repeat -52px -287px;
+  height: 17px;
+  margin-right: 8px;
+  width: 15px;
+}
+
+.product_menu .product_menu_r .cancel_collect:hover {
   border: 1px solid #333;
 }
 
@@ -373,7 +401,7 @@
 
 .product_main .product-details-r {
   position: absolute;
-  top: 140px;
+  top: 0;
   right: 0;
   width: 190px;
   z-index: 99;
