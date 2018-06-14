@@ -40,7 +40,7 @@ a { color:#333; text-decoration:none; }
 .recommd-main {width: 1240px;display: flex;flex-wrap: wrap;}
 .recommd-body {width: 300px;padding: 12px;overflow: hidden;box-sizing: border-box}
 .recommd-body:hover {background-color: rgb(240,240,240);}
-.recommd-body dl {width: 276px;/* height: 405px; */float:left;margin-top: 10px;position: relative;}
+.recommd-body dl {width: 276px;float:left;margin-top: 10px;position: relative;}
 .recommd-body dl dt a{display: block; height: 276px;width: 276px;text-align: center;line-height: 276px;overflow: hidden;background: #fff;}
 .recommd-body dl dt a img{display: inline-block;vertical-align: middle;max-width: 276px;}
 .recommd-body:hover dl dt a img{transition: all 0.5s;transform: scale(1.2)}

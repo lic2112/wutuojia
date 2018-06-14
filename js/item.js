@@ -63,9 +63,6 @@ $.ajax({
     }
 });
 
-// scrollIntoView() 
-
-
 $('.add_collect').on('click', function () {
     $('.add_collect').css({ display: 'none' })
     $('.cancel_collect').css({ display: 'block' })
@@ -75,22 +72,16 @@ $('.cancel_collect').on('click', function () {
     $('.add_collect').css({ display: 'block' })
 })
 
-let menuH = $('.product_menu').offset().top
+let menuH = $('.product_menu').offset().top;
+let detailR_H = $('.product-details-r').offset().top;
 $(window).on('scroll', function () {
     if ($(document).scrollTop() >= menuH) {
-        $('.product_menu').addClass('forfix')
+        $('.product_menu').css({ position: 'fixed' })
     } else {
-        $('.product_menu').removeClass('forfix')
+        $('.product_menu').css({ position: '' })
         console.log(1);
     }
 })
-
-// console.log($('.product_menu').offset());
-// window.onscroll = function(){
-//     console.log(document.documentElement
-//     .scrollTop);
-// }
-
 
 //懒加载
 $('.lazyload').lazyload()
