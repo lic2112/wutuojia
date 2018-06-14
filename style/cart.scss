@@ -1,0 +1,12 @@
+.shopempty {
+    min-height: 600px;position: relative;
+    dl {
+        position: absolute;left: 0;right: 0;top: 0;bottom: 0;margin: auto;height: 180px;
+        dt {
+            background: url(../img/cartico.png) no-repeat 0px -106px;width: 101px;height: 92px;margin: 0 auto;
+        }
+        dd{
+            text-align: center;margin-top: 40px;font-size: 24px;color: #999;
+        }
+    }
+}

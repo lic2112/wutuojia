@@ -61,14 +61,14 @@ class Banner {
 }
 // Banner轮播
 new Banner({
-    next: $('.next'),
-    prev: $('.prev'),
+    next: $('.next_lb'),
+    prev: $('.prev_lb'),
     aImg: $('.imgbox').children()
 });
 // Brands轮播
 new Banner({
-    next: $('.next_b'),
-    prev: $('.prev_b'),
+    next: $('.next_lb_b'),
+    prev: $('.prev_lb_b'),
     aImg: $('.tempWrap ul').children('li')
 });
 

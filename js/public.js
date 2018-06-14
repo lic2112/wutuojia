@@ -129,4 +129,3 @@ $('.imgmenu_ico3').on('click', function () {
         }
     }, 30);
 })
-

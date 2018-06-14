@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="libs/pagination.css">
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
     <link rel="stylesheet" href="style/public.css">
-    <link rel="stylesheet" href="style/list.css">
+    <link rel="stylesheet" href="style/cart.css">
 </head>
 
 <body>
@@ -38,7 +38,7 @@
             </div>
         </div>
         <div class="header_r">
-            <a href="javascript:" class="create">
+            <a href="" class="create">
                 <i></i>
                 <h2>创建搭配</h2>
             </a>
@@ -66,107 +66,89 @@
     </div>
     <!-- header over -->
 
-    <!-- commodity_select start -->
-    <div class="commodity_select layout">
-        <ul>
-            <li>
-                <h3>
-                    <i></i>客厅</h3>
-                <div class="commodity_select_tag">
-                    <a href="javascript:">沙发</a>
-                    <a href="javascript:">电视柜</a>
-                    <a href="javascript:">茶几</a>
-                    <a href="javascript:">置物架</a>
-                    <a href="javascript:">地毯</a>
-                </div>
-            </li>
-            <li>
-                <h3>
-                    <i></i>卧室</h3>
-                <div class="commodity_select_tag">
-                    <a href="javascript:">沙发</a>
-                    <a href="javascript:">电视柜</a>
-                    <a href="javascript:">茶几</a>
-                    <a href="javascript:">置物架</a>
-                    <a href="javascript:">地毯</a>
-                </div>
-            </li>
-            <li>
-                <h3>
-                    <i></i>餐厅</h3>
-                <div class="commodity_select_tag">
-                    <a href="javascript:">沙发</a>
-                    <a href="javascript:">电视柜</a>
-                    <a href="javascript:">茶几</a>
-                    <a href="javascript:">置物架</a>
-                    <a href="javascript:">地毯</a>
-                </div>
-            </li>
-            <li>
-                <h3>
-                    <i></i>书房</h3>
-                <div class="commodity_select_tag">
-                    <a href="javascript:">沙发</a>
-                    <a href="javascript:">电视柜</a>
-                    <a href="javascript:">茶几</a>
-                    <a href="javascript:">置物架</a>
-                    <a href="javascript:">地毯</a>
-                </div>
-            </li>
-            <li>
-                <h3>
-                    <i></i>门厅</h3>
-                <div class="commodity_select_tag">
-                    <a href="javascript:">沙发</a>
-                    <a href="javascript:">电视柜</a>
-                    <a href="javascript:">茶几</a>
-                    <a href="javascript:">置物架</a>
-                    <a href="javascript:">地毯</a>
-                </div>
-            </li>
-        </ul>
+    <div class="shopempty layout">
+        <dl>
+            <dt></dt>
+            <dd>您的购物车没有任何商品，赶快去添加吧！</dd>
+        </dl>
     </div>
-    <!-- commodity_select over -->
 
-    <!-- recommd start -->
-    <div class="recommd layout">
-        <div class="item_recommd-t">
-            <h2>精选商品</h2>
-            <div class="pro-nav">
-                <ul>
-                    <li>
-                        <a href="javascript:">床</a>
-                    </li>
-                    <li>
-                        <a href="javascript:">沙发</a>
-                    </li>
-                    <li>
-                        <a href="javascript:">餐桌</a>
-                    </li>
-                    <li>
-                        <a href="javascript:">茶几</a>
-                    </li>
-                    <li>
-                        <a href="javascript:">床头柜</a>
-                    </li>
-                    <li>
-                        <a href="javascript:">更多
-                            <i></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+    <div class="table-responsive m-t layout">
+        <table class="table invoice-table">
+            <thead>
+                <tr>
+                    <th>清单</th>
+                    <th>数量</th>
+                    <th>单价</th>
+                    <th>总价</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div>
+                            <strong>尚都比拉2013冬装新款女装 韩版修身呢子大衣 秋冬气质羊毛呢外套</strong>
+                        </div>
+                    </td>
+                    <td>1</td>
+                    <td>&yen;26.00</td>
+                    <td>&yen;31,98</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <strong>11*11夏娜 新款斗篷毛呢外套 女秋冬呢子大衣 韩版大码宽松呢大衣</strong>
+                        </div>
+                        <small>双十一特价
+                        </small>
+                    </td>
+                    <td>2</td>
+                    <td>&yen;80.00</td>
+                    <td>&yen;196.80</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <strong>2013秋装 新款女装韩版学生秋冬加厚加绒保暖开衫卫衣 百搭女外套</strong>
+                        </div>
+                    </td>
+                    <td>3</td>
+                    <td>&yen;420.00</td>
+                    <td>&yen;1033.20</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <!-- /table-responsive -->
+
+    <div class="shoplist layout">
+        <table class="table invoice-total">
+            <tbody>
+                <tr>
+                    <td>
+                        <strong>总价：</strong>
+                    </td>
+                    <td>&yen;1026.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>总计</strong>
+                    </td>
+                    <td>&yen;1261.98</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="text-right">
+            <button class="btn btn-primary">
+                <i class="fa fa-dollar"></i> 去付款</button>
         </div>
-        <div class="recommd-main">
 
+        <div class="well m-t">
+            <strong>注意：</strong> 请在30日内完成付款，否则订单会自动取消。
         </div>
     </div>
-    <!-- recommd over -->
-
-    <!-- page start -->
-    <div id="Pagination" class="pagination"></div>
-    <!-- page over -->
-
+    </div>
     <!-- footer start -->
     <div class="footer">
         <div class="footer_t layout">
@@ -389,10 +371,9 @@
     <!-- ingmunu over -->
 </body>
 <script src="libs/jquery.js"></script>
-<script src="libs/jquery.pagination.js"></script>
 <script src="libs/lazyload.min.js"></script>
 <script src="libs/jquery.cookie.js"></script>
-<script src="js/list.js"></script>
 <script src="js/public.js"></script>
+<script src="js/cart.js"></script>
 
 </html>

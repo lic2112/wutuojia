@@ -1,0 +1,29 @@
+.shopempty {
+  min-height: 600px;
+  position: relative;
+}
+
+.shopempty dl {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 180px;
+}
+
+.shopempty dl dt {
+  background: url(../img/cartico.png) no-repeat 0px -106px;
+  width: 101px;
+  height: 92px;
+  margin: 0 auto;
+}
+
+.shopempty dl dd {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 24px;
+  color: #999;
+}
+/*# sourceMappingURL=cart.css.map */

@@ -10,14 +10,14 @@ body { color:#333; font:14px/20px "微软雅黑"; background:#fff;overflow-y:scr
 a { color:#333; text-decoration:none; }
 
 /* banner */
-.banner {width: 1349px;height: 548px;position: relative;margin-bottom: 80px;}
+.banner {width: 100%;position: relative;margin-bottom: 80px;}
 .prev {position: absolute;width: 42px;height: 78px;background: url(../img/wtjicon.png) no-repeat -125px -30px;left: 10px;top: 50%;z-index: 9}
 .prev:hover{background-position: -220px -30px;}
 .next {position: absolute;width: 42px;height: 78px;background: url(../img/wtjicon.png) no-repeat -168px -30px;right: 10px;top: 50%;z-index: 9;}
 .next:hover{background-position: -265px -30px;}
 
-.imgbox a {position: absolute;width: 1349px;height: 548px;left: 1349px;}
-.imgbox a img {width: 1349px;height: 548px;}
+.imgbox a {position: absolute;width: 100%;left: 1349px;}
+.imgbox a img {width:100%;height: 548px;}
 .imgbox a:nth-child(1) {left: 0}
 
 .banner-list {position: absolute;z-index: 3;background: #fff;top: 30px;left: 40px;width: 90px;}
@@ -111,10 +111,10 @@ a { color:#333; text-decoration:none; }
 
 .brands-main {position: relative;height: 618px;background: url(../img/brands/topbrand1.jpg) no-repeat 50% 50%}
 .tv-slideBox a {position: absolute;display: block; height: 20px;width: 13px;margin-top: -10px;top: 50%;}
-.brands-main .prev_b {left:90px;background-position: -189px -463px;}
-.brands-main .prev_b:hover {left:90px;background-position: -219px -463px;}
-.brands-main .next_b {right: 25px;background-position:-203px -463px}
-.brands-main .next_b:hover {right: 25px;background-position:-233px -463px;}
+.brands-main .prev_lb_b {left:90px;background-position: -189px -463px;}
+.brands-main .prev_lb_b:hover {left:90px;background-position: -219px -463px;}
+.brands-main .next_lb_b {right: 25px;background-position:-203px -463px}
+.brands-main .next_lb_b:hover {right: 25px;background-position:-233px -463px;}
 
 .tempWrap {height: 618px;position: relative;}
 .tempWrap ul {overflow: hidden;position: absolute;width: 1075px;height: 515px;left: 0;top: 0;right: 0;bottom: 0;margin: auto;}

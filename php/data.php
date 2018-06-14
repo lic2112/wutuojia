@@ -6,7 +6,8 @@ $recommd = '[
         "data_src": "img/recommd/094350_123422.png",
         "goods": "斯品家居",
         "info1": "斯品北欧宜家绦棉面料深蓝色布艺沙发",
-        "info2": "布艺沙发"
+        "info2": "布艺沙发",
+        "price": 3425
     },
     {
         "src": "img/rd1.png",
@@ -14,7 +15,8 @@ $recommd = '[
         "data_src": "img/recommd/171850_844404.png",
         "goods": "帕拉多米",
         "info1": "帕拉多米简约现代麻布面料混色休闲椅",
-        "info2": "其他椅子"
+        "info2": "其他椅子",
+        "price": 4624
     },
     {
         "src": "img/rd1.png",
@@ -22,7 +24,8 @@ $recommd = '[
         "data_src": "img/recommd/101009_919580.png",
         "goods": "匹美",
         "info1": "匹美北欧宜家实木加厚油蜡皮折叠凳",
-        "info2": "折叠凳"
+        "info2": "折叠凳",
+        "price": 8680
     },
     {
         "src": "img/rd1.png",
@@ -30,7 +33,8 @@ $recommd = '[
         "data_src": "img/recommd/154449_895808.png",
         "goods": "九五",
         "info1": "九五泊系列北欧宜实木白色配浅卡其色板木床",
-        "info2": "板木结合床"
+        "info2": "板木结合床",
+        "price": 5274
     },
     {
         "src": "img/rd1.png",
@@ -38,7 +42,8 @@ $recommd = '[
         "data_src": "img/recommd/175034_437467.png",
         "goods": "以恒尚品",
         "info1": "以恒尚品北欧风格板木结合白色旋转茶几",
-        "info2": "茶几"
+        "info2": "茶几",
+        "price": 9867
     },
     {
         "src": "img/rd1.png",
@@ -46,7 +51,8 @@ $recommd = '[
         "data_src": "img/recommd/145247_562117.png",
         "goods": "富焱灯饰",
         "info1": "富焱灯饰北欧宜家玻璃布艺白色台灯",
-        "info2": "灯具"
+        "info2": "灯具",
+        "price": 3552
     },
     {
         "src": "img/rd1.png",
@@ -54,7 +60,8 @@ $recommd = '[
         "data_src": "img/recommd/094436_811992.png",
         "goods": "摩图",
         "info1": "摩图北欧风格高端棉麻面料白色布艺沙发",
-        "info2": "布艺沙发"
+        "info2": "布艺沙发",
+        "price": 2465
     },
     {
         "src": "img/rd1.png",
@@ -62,39 +69,386 @@ $recommd = '[
         "data_src": "img/recommd/111338_624180.png",
         "goods": "Top Art Studio",
         "info1": "Top Art Studio欧式风格精细骨瓷混搭黄色花纹咖啡杯碟",
-        "info2": "家品百货"
+        "info2": "家品百货",
+        "price": 4765
     },
     {
         "src": "img/rd1.png",
-        "goodsId": 2986375,
-        "data_src": "img/recommd/110352_640096.png",
-        "goods": "Top Art Studio",
-        "info1": "Top Art Studio欧式风格精细骨瓷混搭颜色咖啡杯碟",
-        "info2": "家品百货"
-    },
-    {
-        "src": "img/rd1.png",
-        "goodsId": 6986879,
-        "data_src": "img/recommd/093418_506453.png",
-        "goods": "黛安纳",
-        "info1": "黛安纳棉麻浅蓝色简约现代被套",
-        "info2": "家品百货"
-    },
-    {
-        "src": "img/rd1.png",
-        "goodsId": 3336879,
-        "data_src": "img/recommd/153117_887845.jpg",
-        "goods": "顺顺工艺",
-        "info1": "顺顺工艺欧式风格塑料外框黑色复古挂钟",
-        "info2": "其他家饰"
-    },
-    {
-        "src": "img/rd1.png",
-        "goodsId": 3377779,
-        "data_src": "img/recommd/111741_944870.png",
+        "goodsId": 8579,
+        "data_src": "img/recommd/171850_844404.png",
         "goods": "帕拉多米",
-        "info1": "帕拉多米北欧风格羊绒黄色木脚喷漆休闲椅",
-        "info2": "其他椅子"
+        "info1": "帕拉多米简约现代麻布面料混色休闲椅",
+        "info2": "其他椅子",
+        "price": 4624
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 45763,
+        "data_src": "img/recommd/101009_919580.png",
+        "goods": "匹美",
+        "info1": "匹美北欧宜家实木加厚油蜡皮折叠凳",
+        "info2": "折叠凳",
+        "price": 8680
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 345,
+        "data_src": "img/recommd/154449_895808.png",
+        "goods": "九五",
+        "info1": "九五泊系列北欧宜实木白色配浅卡其色板木床",
+        "info2": "板木结合床",
+        "price": 5274
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 97587,
+        "data_src": "img/recommd/175034_437467.png",
+        "goods": "以恒尚品",
+        "info1": "以恒尚品北欧风格板木结合白色旋转茶几",
+        "info2": "茶几",
+        "price": 9867
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 24562,
+        "data_src": "img/recommd/145247_562117.png",
+        "goods": "富焱灯饰",
+        "info1": "富焱灯饰北欧宜家玻璃布艺白色台灯",
+        "info2": "灯具",
+        "price": 3552
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 35756,
+        "data_src": "img/recommd/094436_811992.png",
+        "goods": "摩图",
+        "info1": "摩图北欧风格高端棉麻面料白色布艺沙发",
+        "info2": "布艺沙发",
+        "price": 2465
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 298084,
+        "data_src": "img/recommd/111338_624180.png",
+        "goods": "Top Art Studio",
+        "info1": "Top Art Studio欧式风格精细骨瓷混搭黄色花纹咖啡杯碟",
+        "info2": "家品百货",
+        "price": 4765
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 8579,
+        "data_src": "img/recommd/171850_844404.png",
+        "goods": "帕拉多米",
+        "info1": "帕拉多米简约现代麻布面料混色休闲椅",
+        "info2": "其他椅子",
+        "price": 4624
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 45763,
+        "data_src": "img/recommd/101009_919580.png",
+        "goods": "匹美",
+        "info1": "匹美北欧宜家实木加厚油蜡皮折叠凳",
+        "info2": "折叠凳",
+        "price": 8680
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 345,
+        "data_src": "img/recommd/154449_895808.png",
+        "goods": "九五",
+        "info1": "九五泊系列北欧宜实木白色配浅卡其色板木床",
+        "info2": "板木结合床",
+        "price": 5274
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 97587,
+        "data_src": "img/recommd/175034_437467.png",
+        "goods": "以恒尚品",
+        "info1": "以恒尚品北欧风格板木结合白色旋转茶几",
+        "info2": "茶几",
+        "price": 9867
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 24562,
+        "data_src": "img/recommd/145247_562117.png",
+        "goods": "富焱灯饰",
+        "info1": "富焱灯饰北欧宜家玻璃布艺白色台灯",
+        "info2": "灯具",
+        "price": 3552
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 35756,
+        "data_src": "img/recommd/094436_811992.png",
+        "goods": "摩图",
+        "info1": "摩图北欧风格高端棉麻面料白色布艺沙发",
+        "info2": "布艺沙发",
+        "price": 2465
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 298084,
+        "data_src": "img/recommd/111338_624180.png",
+        "goods": "Top Art Studio",
+        "info1": "Top Art Studio欧式风格精细骨瓷混搭黄色花纹咖啡杯碟",
+        "info2": "家品百货",
+        "price": 4765
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 8579,
+        "data_src": "img/recommd/171850_844404.png",
+        "goods": "帕拉多米",
+        "info1": "帕拉多米简约现代麻布面料混色休闲椅",
+        "info2": "其他椅子",
+        "price": 4624
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 45763,
+        "data_src": "img/recommd/101009_919580.png",
+        "goods": "匹美",
+        "info1": "匹美北欧宜家实木加厚油蜡皮折叠凳",
+        "info2": "折叠凳",
+        "price": 8680
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 345,
+        "data_src": "img/recommd/154449_895808.png",
+        "goods": "九五",
+        "info1": "九五泊系列北欧宜实木白色配浅卡其色板木床",
+        "info2": "板木结合床",
+        "price": 5274
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 97587,
+        "data_src": "img/recommd/175034_437467.png",
+        "goods": "以恒尚品",
+        "info1": "以恒尚品北欧风格板木结合白色旋转茶几",
+        "info2": "茶几",
+        "price": 9867
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 24562,
+        "data_src": "img/recommd/145247_562117.png",
+        "goods": "富焱灯饰",
+        "info1": "富焱灯饰北欧宜家玻璃布艺白色台灯",
+        "info2": "灯具",
+        "price": 3552
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 35756,
+        "data_src": "img/recommd/094436_811992.png",
+        "goods": "摩图",
+        "info1": "摩图北欧风格高端棉麻面料白色布艺沙发",
+        "info2": "布艺沙发",
+        "price": 2465
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 298084,
+        "data_src": "img/recommd/111338_624180.png",
+        "goods": "Top Art Studio",
+        "info1": "Top Art Studio欧式风格精细骨瓷混搭黄色花纹咖啡杯碟",
+        "info2": "家品百货",
+        "price": 4765
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 8579,
+        "data_src": "img/recommd/171850_844404.png",
+        "goods": "帕拉多米",
+        "info1": "帕拉多米简约现代麻布面料混色休闲椅",
+        "info2": "其他椅子",
+        "price": 4624
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 45763,
+        "data_src": "img/recommd/101009_919580.png",
+        "goods": "匹美",
+        "info1": "匹美北欧宜家实木加厚油蜡皮折叠凳",
+        "info2": "折叠凳",
+        "price": 8680
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 345,
+        "data_src": "img/recommd/154449_895808.png",
+        "goods": "九五",
+        "info1": "九五泊系列北欧宜实木白色配浅卡其色板木床",
+        "info2": "板木结合床",
+        "price": 5274
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 97587,
+        "data_src": "img/recommd/175034_437467.png",
+        "goods": "以恒尚品",
+        "info1": "以恒尚品北欧风格板木结合白色旋转茶几",
+        "info2": "茶几",
+        "price": 9867
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 24562,
+        "data_src": "img/recommd/145247_562117.png",
+        "goods": "富焱灯饰",
+        "info1": "富焱灯饰北欧宜家玻璃布艺白色台灯",
+        "info2": "灯具",
+        "price": 3552
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 35756,
+        "data_src": "img/recommd/094436_811992.png",
+        "goods": "摩图",
+        "info1": "摩图北欧风格高端棉麻面料白色布艺沙发",
+        "info2": "布艺沙发",
+        "price": 2465
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 298084,
+        "data_src": "img/recommd/111338_624180.png",
+        "goods": "Top Art Studio",
+        "info1": "Top Art Studio欧式风格精细骨瓷混搭黄色花纹咖啡杯碟",
+        "info2": "家品百货",
+        "price": 4765
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 8579,
+        "data_src": "img/recommd/171850_844404.png",
+        "goods": "帕拉多米",
+        "info1": "帕拉多米简约现代麻布面料混色休闲椅",
+        "info2": "其他椅子",
+        "price": 4624
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 45763,
+        "data_src": "img/recommd/101009_919580.png",
+        "goods": "匹美",
+        "info1": "匹美北欧宜家实木加厚油蜡皮折叠凳",
+        "info2": "折叠凳",
+        "price": 8680
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 345,
+        "data_src": "img/recommd/154449_895808.png",
+        "goods": "九五",
+        "info1": "九五泊系列北欧宜实木白色配浅卡其色板木床",
+        "info2": "板木结合床",
+        "price": 5274
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 97587,
+        "data_src": "img/recommd/175034_437467.png",
+        "goods": "以恒尚品",
+        "info1": "以恒尚品北欧风格板木结合白色旋转茶几",
+        "info2": "茶几",
+        "price": 9867
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 24562,
+        "data_src": "img/recommd/145247_562117.png",
+        "goods": "富焱灯饰",
+        "info1": "富焱灯饰北欧宜家玻璃布艺白色台灯",
+        "info2": "灯具",
+        "price": 3552
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 35756,
+        "data_src": "img/recommd/094436_811992.png",
+        "goods": "摩图",
+        "info1": "摩图北欧风格高端棉麻面料白色布艺沙发",
+        "info2": "布艺沙发",
+        "price": 2465
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 298084,
+        "data_src": "img/recommd/111338_624180.png",
+        "goods": "Top Art Studio",
+        "info1": "Top Art Studio欧式风格精细骨瓷混搭黄色花纹咖啡杯碟",
+        "info2": "家品百货",
+        "price": 4765
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 8579,
+        "data_src": "img/recommd/171850_844404.png",
+        "goods": "帕拉多米",
+        "info1": "帕拉多米简约现代麻布面料混色休闲椅",
+        "info2": "其他椅子",
+        "price": 4624
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 45763,
+        "data_src": "img/recommd/101009_919580.png",
+        "goods": "匹美",
+        "info1": "匹美北欧宜家实木加厚油蜡皮折叠凳",
+        "info2": "折叠凳",
+        "price": 8680
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 345,
+        "data_src": "img/recommd/154449_895808.png",
+        "goods": "九五",
+        "info1": "九五泊系列北欧宜实木白色配浅卡其色板木床",
+        "info2": "板木结合床",
+        "price": 5274
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 97587,
+        "data_src": "img/recommd/175034_437467.png",
+        "goods": "以恒尚品",
+        "info1": "以恒尚品北欧风格板木结合白色旋转茶几",
+        "info2": "茶几",
+        "price": 9867
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 24562,
+        "data_src": "img/recommd/145247_562117.png",
+        "goods": "富焱灯饰",
+        "info1": "富焱灯饰北欧宜家玻璃布艺白色台灯",
+        "info2": "灯具",
+        "price": 3552
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 35756,
+        "data_src": "img/recommd/094436_811992.png",
+        "goods": "摩图",
+        "info1": "摩图北欧风格高端棉麻面料白色布艺沙发",
+        "info2": "布艺沙发",
+        "price": 2465
+    },
+    {
+        "src": "img/rd1.png",
+        "goodsId": 298084,
+        "data_src": "img/recommd/111338_624180.png",
+        "goods": "Top Art Studio",
+        "info1": "Top Art Studio欧式风格精细骨瓷混搭黄色花纹咖啡杯碟",
+        "info2": "家品百货",
+        "price": 4765
     }
 ]';
 
