@@ -26,4 +26,57 @@
   font-size: 24px;
   color: #999;
 }
+
+.invoice-table {
+  margin-top: 30px;
+}
+
+.table thead th {
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+tbody {
+  font-size: 14px;
+}
+
+tbody td {
+  height: 100px;
+  line-height: 100px;
+}
+
+.myshoplist td {
+  height: 100px;
+  line-height: 100px;
+}
+
+.myshoplist td img {
+  max-height: 100px;
+  max-width: 100px;
+  display: inline-block;
+}
+
+.myshoplist td span {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  background: #007bff;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.myshoplist td span:hover {
+  background: #0069d9;
+  border-color: #0062cc;
+}
+
+.invoice-total {
+  font-size: 16px;
+  font-weight: bold;
+}
 /*# sourceMappingURL=cart.css.map */

@@ -41,7 +41,7 @@ class Page {
                 str += `<div class='recommd-body' goods_id='${res[i].goodsId}'>
                         <dl>
                             <dt>
-                                <a href='javascript:'>
+                                <a href='item.html'>
                                     <img src='img/rd1.png' alt='' data-src='${res[i].data_src}' class='lazyload'>
                                 </a>
                             </dt>
@@ -62,35 +62,40 @@ class Page {
     }
     init() {
         $('.recommd-body').on('click', 'em', function () {
-            let index = $(this).parent().parent().parent().attr('goods_id');
-            // console.log(index);
-            let arr = [];
-            if (!$.cookie('goods')) {
-                arr.push({
-                    'id': index,
-                    'num': 1
-                })
-                let a = JSON.stringify(arr)
-                $.cookie('goods', a)
+            // 先判断登录状态
+            if ($.cookie('name') == null && $.cookie('pass') == null) {
+                alert('请先登录')
             } else {
-                arr = JSON.parse($.cookie('goods'))
-                let onOff = true
-                for (let i = 0; i < arr.length; i++) {
-                    if (index == arr[i].id) {
-                        arr[i].num++
-                        onOff = false
-                    }
-                }
-                if (onOff) {
+                let index = $(this).parent().parent().parent().attr('goods_id');
+                // console.log(index);
+                let arr = [];
+                if (!$.cookie('goods')) {
                     arr.push({
                         'id': index,
                         'num': 1
                     })
+                    let a = JSON.stringify(arr)
+                    $.cookie('goods', a)
+                } else {
+                    arr = JSON.parse($.cookie('goods'))
+                    let onOff = true
+                    for (let i = 0; i < arr.length; i++) {
+                        if (index == arr[i].id) {
+                            arr[i].num++
+                            onOff = false
+                        }
+                    }
+                    if (onOff) {
+                        arr.push({
+                            'id': index,
+                            'num': 1
+                        })
+                    }
+                    let b = JSON.stringify(arr)
+                    $.cookie('goods', b)
                 }
-                let b = JSON.stringify(arr)
-                $.cookie('goods', b)
+                // console.log($.cookie('goods'));
             }
-            // console.log($.cookie('goods'));
         })
     }
 }

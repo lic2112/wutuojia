@@ -34,8 +34,11 @@
     }
 }
 
+.forfix{
+    position:fixed;z-index:99999;
+}
 .product_menu {
-    overflow: hidden;border-bottom: 1px solid #ddd;
+    overflow: hidden;border-bottom: 1px solid #ddd;background:#fff;top: 0;margin:0 auto;
     .product_menu_l {
         float: left;
         a {

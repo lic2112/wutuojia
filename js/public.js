@@ -1,6 +1,3 @@
-$.cookie('name');
-$.cookie('pass');
-
 //登录状态时hover显示下拉菜单,否则点击小人登录注册
 if ($.cookie('name') != null && $.cookie('pass') != null) {
     // $('.myInfo').on('click', function () {
