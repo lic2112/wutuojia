@@ -3,11 +3,10 @@ class Cart {
         this.askData()
         this.getCookie()
     }
-    
     askData() {
         let that = this;
         $.ajax({
-            url: 'http://127.0.0.1/wutuojia/php/data.php',
+            url: 'php/data.php',
             type: 'post',
             data: { recommd: 1 },
             dataType: 'json',

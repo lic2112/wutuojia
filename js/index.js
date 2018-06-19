@@ -82,7 +82,7 @@ $('.mytake-ul li').on('mouseenter', function () {
 
 // recomd数据请求
 $.ajax({
-    url: 'http://127.0.0.1/wutuojia/php/data.php',
+    url: 'php/data.php',
     type: 'post',
     data: { recommd: 1 },
     dataType: 'json',
@@ -122,7 +122,7 @@ $.ajax({
 
 // mytake-ul数据请求
 $.ajax({
-    url: 'http://127.0.0.1/wutuojia/php/data.php',
+    url: 'php/data.php',
     type: 'post',
     data: { mytake_ul: 1 },
     dataType: 'json',
@@ -136,7 +136,7 @@ $.ajax({
 
 // work-ul数据请求
 $.ajax({
-    url: 'http://127.0.0.1/wutuojia/php/data.php',
+    url: 'php/data.php',
     type: 'post',
     data: { work_ul: 1 },
     dataType: 'json',
@@ -153,7 +153,7 @@ $.ajax({
 
 // brands数据请求
 $.ajax({
-    url: 'http://127.0.0.1/wutuojia/php/data.php',
+    url: 'php/data.php',
     type: 'post',
     data: { brands: 1 },
     dataType: 'json',

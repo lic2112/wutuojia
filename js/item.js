@@ -26,7 +26,7 @@ $('.swiper-container').mouseleave(function () {
 
 // rec-commodity-ul数据请求
 $.ajax({
-    url: 'http://127.0.0.1/wutuojia/php/data.php',
+    url: 'php/data.php',
     type: 'post',
     data: { rec_commodity_ul: 1 },
     dataType: 'json',
@@ -72,14 +72,21 @@ $('.cancel_collect').on('click', function () {
     $('.add_collect').css({ display: 'block' })
 })
 
-let menuH = $('.product_menu').offset().top;
-let detailR_H = $('.product-details-r').offset().top;
+let menuT = $('.product_menu').offset().top;
+let detailR_T = $('.product-details-r').offset().top;
+let foot_H = $('.footer').offset().top
 $(window).on('scroll', function () {
-    if ($(document).scrollTop() >= menuH) {
-        $('.product_menu').css({ position: 'fixed' })
+    if ($(document).scrollTop() >= menuT) {
+        $('.product_menu').css({
+            position: 'fixed'
+        })
     } else {
         $('.product_menu').css({ position: '' })
-        console.log(1);
+    }
+    if ($(document).scrollTop() > detailR_T && $(document).scrollTop() < foot_H - detailR_T) {
+        $('.product-details-r').css({ top: $(document).scrollTop() - $('.product_main').offset().top })
+    } else {
+        $('.product-details-r').css({ top: 0 })
     }
 })
 
