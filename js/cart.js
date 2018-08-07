@@ -12,7 +12,7 @@ class Cart {
             dataType: 'json',
             success: function (res) {
                 that.res = res;
-                console.log(that.res);
+                // console.log(that.res);
                 that.display();
                 that.remove();
             }
@@ -20,12 +20,13 @@ class Cart {
     }
     getCookie() {
         this.cookie = JSON.parse($.cookie('goods'))
-        console.log(this.cookie);
+        // console.log(this.cookie);
     }
     display() {
         let that = this;
         let str = '';
         let invoice = 0
+        // console.log(this.res);
         if (this.res && this.cookie) {
             this.res.forEach(val1 => {
                 that.cookie.forEach(val2 => {
